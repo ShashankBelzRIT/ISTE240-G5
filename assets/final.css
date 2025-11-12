@@ -91,6 +91,50 @@ nav a {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #043901;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu > li {
+        width: 100%;
+    }
+
+    .dropdown:hover .dropdownMenu {
+        display: none;
+    }
+
+
+    .dropdownMenu {
+        position: static;
+        display: none;
+    }
+
+    .dropdown.active .dropdownMenu {
+        display: block;
+    }
+
+    #carousel {
+        flex-direction: column;
+    }
+
+    #leftArrow,
+    #rightArrow {
+        display: none;
+    }
+}
+
 /* Main content */
 main {
   background-color: #E8E6EE;

@@ -8,36 +8,37 @@
 </head>
 <body>
   <header>
+    <button class="hamburger" id="hamburgerBtn">☰</button>
     <nav>
       <img id=logo src="assets/images/logo.png" alt="Logo" class="logo">
-      <button class="hamburger" id="hamburgerBtn">☰</button>
+
       <ul class="nav-menu">
           <li><a href="home.html">Home</a></li>
           
-          <li class="dropdown">
+          <div class="dropdown">
             <a href="history.html">History</a>
-            <ul class="dropdownMenu">
-                <li><a href="press.html">Press</a></li>
-                <li><a href="pixel.html">Pixel</a></li>
-            </ul>
-          </li>
+            <div class="dropdownMenu">
+                <a href="press.html">Press</a>
+                <a href="pixel.html">Pixel</a>
+            </div>
+          </div>
 
-          <li class="dropdown">
+          <div class="dropdown">
             <a href="why.html">Why</a>
-            <ul class="dropdownMenu">
-                <li><a href="credibility.html">Credibility</a></li>
-            </ul>
-          </li>
+            <div class="dropdownMenu">
+                <a href="credibility.html">Credibility</a>
+            </div>
+          </div>
 
-          <li class="dropdown">
+          <div class="dropdown">
             <a href="research.html">Research</a>
-            <ul class="dropdownMenu">
-                <li><a href="impact.html">Impact</a></li>
-            </ul>
-          </li>
+            <div class="dropdownMenu">
+                <a href="impact.html">Impact</a>
+            </div>
+          </div>
 
-          <li><a href="accessibility.html">Accessibility</a></li>
-          </ul>
+          <div><a href="accessibility.html">Accessibility</a></li>
+        </ul>
       <button class="settings">Settings</button>
   </nav>
   </header>
@@ -108,6 +109,16 @@
   <footer>
     <p><a href="#">About</a> | <a href="#">Resources</a></p>
   </footer>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav-menu");
+
+  hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+});
+</script>
 </body>
 </html>
 

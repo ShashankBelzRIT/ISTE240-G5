@@ -1,4 +1,6 @@
-/* Reset */
+/* From Press to Pixel CSS */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +10,19 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E8E6EE;
   color: #222;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
 }
 
 /* Header */
 header {
-  background-color: #fff;
+  background-color: #E8E6EE;
   border-bottom: 1px solid #ddd;
   padding: 10px 20px;
 }
@@ -37,8 +44,46 @@ nav a {
   color: #333;
 }
 
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #E8E6EE;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.dropdownMenu li a {
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+}
+
+.dropdownMenu li a:hover {
+    background-color: #cecada;
+}
+
+.dropdown:hover .dropdownMenu {
+    display: block;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #000000;
+    padding: 16px;
+    cursor: pointer;
+}
+
 .settings {
-  background-color: #444;
+  background-color: #4D544B;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -46,45 +91,88 @@ nav a {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #043901;
+        width: 100%;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu > li {
+        width: 100%;
+    }
+
+    .dropdown:hover .dropdownMenu {
+        display: none;
+    }
+
+
+    .dropdownMenu {
+        position: static;
+        display: none;
+    }
+
+    .dropdown.active .dropdownMenu {
+        display: block;
+    }
+
+    #carousel {
+        flex-direction: column;
+    }
+
+    #leftArrow,
+    #rightArrow {
+        display: none;
+    }
+}
+
 /* Main content */
 main {
-  background-color: #fff;
+  background-color: #E8E6EE;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
   margin-bottom: 20px;
 }
 
 .content {
   max-width: 900px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   font-size: 16px;
-  line-height: 1.7;
   text-align: justify;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 10px #0000001a;
 }
 
-/* Float interactive element LEFT */
+/*floats interactive element to the left*/
 .interactive-element {
   float: left;
   width: 280px;
-  background-color: #e6e6e6;
-  border-left: 6px solid crimson;
+  background-color: #E8E6EE;
+  border-left: 6px solid #922F28;
   padding: 15px;
   margin: 15px 25px 15px 0;
   border-radius: 6px;
 }
 
 .interactive-element h3 {
-  background-color: crimson;
-  color: white;
+  background-color: #922F28;
+  color:  #E8E6EE;
   padding: 6px;
   margin-bottom: 10px;
   text-align: center;
@@ -104,7 +192,7 @@ h1 {
 footer {
   text-align: center;
   padding: 12px;
-  background-color: #f1f1f1;
+  background-color: #E8E6EE;
   border-top: 1px solid #ddd;
   margin-top: 40px;
 }
@@ -112,15 +200,16 @@ footer {
 .crap{
   float:right;
   width: 280px;
-  background-color: #e6e6e6;
-  border-left: 6px solid crimson;
+  background-color: #E8E6EE;
+  border-left: 6px solid #031A4D;
   padding: 15px;
   margin: 15px 25px 15px;
   border-radius: 6px;
 }
+
 .crap h3{
-  background-color: crimson;
-  color: white;
+  background-color: #031A4D;
+  color: #E8E6EE;
   padding: 6px;
   margin-bottom: 10px;
   text-align: center;
@@ -132,5 +221,42 @@ footer {
 }
 
 .left-text{
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*home page*/
+#image{
+    width: 100%;
+    height: auto;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left_arrow{
+    width: 100%;
+    height: auto;
+    width: 40px;
+    height: 30px;
+}
+
+#right_arrow{
+    width: 100%;
+    height: auto;
+    width: 40px;
+    height: 30px;
+}
+
+#right{
+    position: absolute;
+    right: 100px;
+}
+
+.carosel_body{
+    margin: 50px 50px 50px 50px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
 }

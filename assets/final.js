@@ -3,8 +3,19 @@
 
 // Home Page Carosel 
 const image_sources = [
-    
+    "images/home/newspaper1.jpg",
+    "images/home/newspaper2.jpg",
+    "images/home/newspaper3.jpg",
+    "images/home/newspaper4.jpg",
+    "images/home/newspaper5.jpg"
 ]
+
+//sources:
+// newspaper 1 - https://www.neh.gov/divisions/preservation/featured-project/turning-the-page-the-us-newspaper-program-1982-2011
+// newspaper2 - https://www.istockphoto.com/search/2/image-film?phrase=digital+news+headlines
+// newspaper 3 - https://www.meisterdrucke.us/fine-art-prints/Company-Byron/1059771/A-Newspaper-Stand.html
+// newpaper 4 - https://stockcake.com/i/busy-newsroom-activity_1413886_585651
+// newspaper 5 - https://www.istockphoto.com/search/2/image-film?phrase=digital+news+headlines
 
 var img_index = 0;
 function right(){

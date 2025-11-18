@@ -141,7 +141,7 @@ nav a {
     }
 
     .dropdown:hover .dropdownMenu {
-    display: none;
+      display: none;
   }
 
     .dropdown.active .dropdownMenu {

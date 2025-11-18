@@ -3,11 +3,11 @@
 
 // Home Page Carosel 
 const image_sources = [
-    "images/home/newspaper1.jpg",
-    "images/home/newspaper2.jpg",
-    "images/home/newspaper3.jpg",
-    "images/home/newspaper4.jpg",
-    "images/home/newspaper5.jpg"
+    "assets/images/home/newspaper1.jpg",
+    "assets/images/home/newspaper2.jpg",
+    "assets/images/home/newspaper3.jpg",
+    "assets/images/home/newspaper4.jpg",
+    "assets/images/home/newspaper5.jpg"
 ]
 
 //sources:

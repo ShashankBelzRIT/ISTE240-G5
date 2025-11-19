@@ -21,7 +21,7 @@
       </p>
 
       <hr>
-
+      <br>
       <h3>Bias Breakdown</h3>
       <p>
           Bias in the news is a dangerous aspect of the news media. Political parties and 
@@ -36,7 +36,7 @@
       <p class="clear">
           In terms of the differences between print news and digital news sources for 
           fake news and bias, here are some pros for both:
-          <ul>
+          <ul id = "credList">
             <l1><h4>Print</h4></l1>
             <li>More likely to be written by a human</li>
             <li>More reliable and trustworthy news</li>
@@ -53,7 +53,7 @@
             </ul>
           </div>
 
-           <ul>
+          <ul id = "credList">
             <l1><h4>Digital</h4></l1>
             <li>Easier to complete background research on the topic</li>
             <li>Sources are easier to locate</li>

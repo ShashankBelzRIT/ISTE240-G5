@@ -22,7 +22,7 @@ html, body {
 
 /* Header */
 header {
-  background-color: #E8E6EE;
+  background-color: #f2f0f6;
   border-bottom: 1px solid #ddd;
   padding: 10px 20px;
 }
@@ -219,7 +219,7 @@ h1, h3 {
 footer {
   text-align: center;
   padding: 12px;
-  background-color: #E8E6EE;
+  background-color: #f2f0f6;
   border-top: 1px solid #ddd;
   margin-top: 40px;
 }
@@ -264,7 +264,7 @@ footer {
     position: absolute;
     background-color: transparent;
     border-color: transparent;
-    bottom: 345px;
+    bottom: 300px;
 }
 
 #left_arrow, #right_arrow{
@@ -289,4 +289,12 @@ footer {
     justify-content: center;
     align-items: center;
     height: 300px;
+}
+
+
+/*Credibility*/
+
+#credList{
+  list-style: none;
+  padding-left: 20px;
 }

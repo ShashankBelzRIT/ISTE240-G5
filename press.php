@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/final.css">
-    <title>Document</title>
-</head>
+<?php
+    $pageTitle = "Press";
+    require_once('assets/inc/header.inc.php');
+?>
 
 <body>
-
-    <h1>Print Media</h1>
+    <h1>Press</h1>
     <p>
         Newspapers have been a large industry that span over 4 centuries. As you would guess, newspapers are made out
         of paper, shocker, I know. Over those 4 centuries, the industry has depleted a large amount of paper and, in
@@ -21,11 +13,10 @@
         inks that can pollute air and water sources. Overall, the print media industry places a heavy strain on natural
         resources and ecosystems, making its environmental footprint difficult to ignore.
     </p>
-    <h2>Accessibility</h2>
     <p>Print media’s rise in accessibility began with the introduction of braille newspapers, which allowed the blind to
         read physical newspapers without them being read to them. This raised empowerment amongst the blind community as
         they were allowed more autonomy and independence from a society that declared them dependent.
     </p>
-</body>
-
-</html>
+<?php
+    require_once('assets/inc/footer.inc.php');
+?>

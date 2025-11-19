@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = "Home"
+    $pageTitle = "Home";
     require_once('assets/inc/header.inc.php');
 ?>
     <h1> From Press to Pixel</h1>

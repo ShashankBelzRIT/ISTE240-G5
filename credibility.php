@@ -1,3 +1,7 @@
+<?php
+    $pageTitle = "Credibility"
+    require_once('assets/inc/header.inc.php');
+?>
 
   <main>
     <h1>Credibility</h1>
@@ -62,9 +66,7 @@
     </div>
   </main>
 
-  <footer>
-    <p><a href="#">About</a> | <a href="#">Resources</a></p>
-  </footer>
-</body>
-</html>
+<?php
+    require_once('assets/inc/footer.inc.php');
+?>
 

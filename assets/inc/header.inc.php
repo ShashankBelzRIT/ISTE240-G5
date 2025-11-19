@@ -23,7 +23,7 @@
           </li>
 
           <li class="dropdown">
-            <a href="why.html">Why</a>
+            <a href="why.php">Why</a>
             <ul class="dropdownMenu">
                 <li><a href="credibility.html">Credibility</a></li>
             </ul>
@@ -32,7 +32,7 @@
           <li class="dropdown">
             <a href="research.html">Research</a>
             <ul class="dropdownMenu">
-                <li><a href="impact.html">Impact</a></li>
+                <li><a href="impact.php">Impact</a></li>
             </ul>
           </li>
 

@@ -17,7 +17,7 @@
           <li class="dropdown">
             <a href="history.html">History</a>
             <ul class="dropdownMenu">
-                <li><a href="press.html">Press</a></li>
+                <li><a href="press.php">Press</a></li>
                 <li><a href="pixel.html">Pixel</a></li>
             </ul>
           </li>
@@ -25,7 +25,7 @@
           <li class="dropdown">
             <a href="why.php">Why</a>
             <ul class="dropdownMenu">
-                <li><a href="credibility.html">Credibility</a></li>
+                <li><a href="credibility.php">Credibility</a></li>
             </ul>
           </li>
 

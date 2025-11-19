@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = "Impact"
+    $pageTitle = "Impact";
     require_once('assets/inc/header.inc.php');
 ?>
 

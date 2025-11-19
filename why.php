@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = "Why"
+    $pageTitle = "Why";
     require_once('assets/inc/header.inc.php');
 ?>
 

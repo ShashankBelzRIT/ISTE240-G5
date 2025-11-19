@@ -250,36 +250,39 @@ footer {
 /*home page*/
 #image{
     width: 100%;
-    height: auto;
     width: 400px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+    max-height: 100%;
+    margin: 0 auto;
 }
 
-#left_arrow{
-    width: 100%;
-    height: auto;
-    width: 40px;
-    height: 30px;
+#left, #right{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    bottom: 334px;
 }
 
-#right_arrow{
-    width: 100%;
-    height: auto;
-    width: 40px;
-    height: 30px;
+#left_arrow, #right{
+  width: 40px;
+  height: 30px;
 }
 
 #right{
-    position: absolute;
-    right: 100px;
+    right: 300px;
 }
 
-.carosel_body{
-    margin: 50px 50px 50px 50px;
-    display: block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    align-self: center;
+#left{
+  left: 300px;
+}
+
+#left_arrow:hover, #right_arrow:hover {
+    background-color: #adadad;
+}
+
+.carosel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }

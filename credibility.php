@@ -20,8 +20,10 @@
           out for websites that adhere to the principles, and avoid the ones that don’t! 
       </p>
 
+      <br>
       <hr>
       <br>
+      
       <h3>Bias Breakdown</h3>
       <p>
           Bias in the news is a dangerous aspect of the news media. Political parties and 

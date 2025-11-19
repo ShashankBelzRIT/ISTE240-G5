@@ -5,7 +5,7 @@
 
 <body>
     <h1>Press</h1>
-    <p>
+    <p class = "content">
         Newspapers have been a large industry that span over 4 centuries. As you would guess, newspapers are made out
         of paper, shocker, I know. Over those 4 centuries, the industry has depleted a large amount of paper and, in
         turn, trees as a result of this industry. In 2006, newspapers generated 5.25 million tons more waste than in

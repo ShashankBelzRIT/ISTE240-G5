@@ -16,10 +16,10 @@
           <li><a href="home.php">Home</a></li>
           
           <li class="dropdown">
-            <a href="history.html">History</a>
+            <a href="history.php">History</a>
             <ul class="dropdownMenu">
                 <li><a href="press.php">Press</a></li>
-                <li><a href="pixel.html">Pixel</a></li>
+                <li><a href="pixel.php">Pixel</a></li>
             </ul>
           </li>
 
@@ -31,13 +31,13 @@
           </li>
 
           <li class="dropdown">
-            <a href="research.html">Research</a>
+            <a href="research.php">Research</a>
             <ul class="dropdownMenu">
                 <li><a href="impact.php">Impact</a></li>
             </ul>
           </li>
 
-          <li><a href="accessibility.html">Accessibility</a></li>
+          <li><a href="accessibility.php">Accessibility</a></li>
           </ul>
       <button class="settings">Settings</button>
   </nav>

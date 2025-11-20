@@ -11,6 +11,7 @@
     <nav>
       <img id=logo src="assets/images/logo.png" alt="Logo" class="logo">
       <button class="hamburger" id="hamburgerBtn">☰</button>
+      
       <ul class="nav-menu">
           <li><a href="home.php">Home</a></li>
           

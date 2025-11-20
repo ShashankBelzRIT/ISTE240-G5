@@ -49,7 +49,7 @@ nav a {
   color: #333;
 }
 
-.nav a:hover {
+.nav-menu :hover {
   background-color: #cecada;
 }
 
@@ -63,10 +63,10 @@ nav a {
   top: 100%;
   left: 0;
   flex-direction: column; 
-  background-color: #E8E6EE;
+  background-color: #f2f0f6;
   list-style: none;
   padding: 0;
-  margin: 3px;
+  margin: 0;
   min-width: 130px;
   border: 1px solid #ddd;
   border-radius: 4px;

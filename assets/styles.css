@@ -1,4 +1,6 @@
-/* Reset */
+/* From Press to Pixel CSS */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,22 +10,32 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E8E6EE;
   color: #222;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
 }
 
 /* Header */
 header {
-  background-color: #fff;
+  background-color: #f2f0f6;
   border-bottom: 1px solid #ddd;
   padding: 10px 20px;
 }
 
+h1{
+  margin: 5px auto;
+}
+
 nav {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 nav ul {
@@ -37,8 +49,62 @@ nav a {
   color: #333;
 }
 
+.nav-menu :hover {
+  background-color: #cecada;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownMenu {
+  display:none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  flex-direction: column; 
+  background-color: #f2f0f6;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 130px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: flex;
+}
+
+
+.dropdownMenu a {
+  display: block;
+  padding: 10px 16px;
+  color: #000;
+  text-decoration: none;
+  white-space: nowrap; 
+}
+
+
+.dropdownMenu a:hover {
+  background-color: #cecada;
+}
+
+.hamburgerBtn {
+   position: absolute;
+    z-index: 20;
+    top: 10px;
+    border: 0;
+    padding: 0;
+    width: 30px;
+    cursor: pointer;
+    right: -50px;
+    transition: all 0.5s;
+}
+
 .settings {
-  background-color: #444;
+  background-color: #4D544B;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -46,45 +112,98 @@ nav a {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .hamburgerBtn {
+        display: block;
+        right: 10px;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: transparent;
+        width: 100%;
+        padding: 10px 0;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu > li {
+        width: 100%;
+    }
+
+    .dropdown:hover .dropdownMenu {
+        display: none;
+    }
+
+    .dropdownMenu {
+        position: static;
+        display: none;
+        background-color: transparent;
+    }
+
+    .dropdown:hover .dropdownMenu {
+      display: none;
+  }
+
+    .dropdown.active .dropdownMenu {
+        display: block;
+    }
+
+    #carousel {
+        flex-direction: column;
+    }
+
+    #leftArrow,
+    #rightArrow {
+        display: none;
+    }
+}
+
 /* Main content */
 main {
-  background-color: #fff;
+  background-color: #E8E6EE;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
   margin-bottom: 20px;
 }
 
 .content {
   max-width: 900px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   font-size: 16px;
-  line-height: 1.7;
   text-align: justify;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 10px #0000001a;
 }
 
-/* Float interactive element LEFT */
+/*floats interactive element to the left*/
 .interactive-element {
   float: left;
   width: 280px;
-  background-color: #e6e6e6;
-  border-left: 6px solid crimson;
+  background-color: #E8E6EE;
+  border-left: 6px solid #922F28;
   padding: 15px;
   margin: 15px 25px 15px 0;
   border-radius: 6px;
 }
 
 .interactive-element h3 {
-  background-color: crimson;
-  color: white;
+  background-color: #922F28;
+  color:  #E8E6EE;
   padding: 6px;
   margin-bottom: 10px;
   text-align: center;
@@ -104,7 +223,7 @@ h1 {
 footer {
   text-align: center;
   padding: 12px;
-  background-color: #f1f1f1;
+  background-color: #f2f0f6;
   border-top: 1px solid #ddd;
   margin-top: 40px;
 }
@@ -112,15 +231,16 @@ footer {
 .crap{
   float:right;
   width: 280px;
-  background-color: #e6e6e6;
-  border-left: 6px solid crimson;
+  background-color: #E8E6EE;
+  border-left: 6px solid #031A4D;
   padding: 15px;
   margin: 15px 25px 15px;
   border-radius: 6px;
 }
+
 .crap h3{
-  background-color: crimson;
-  color: white;
+  background-color: #031A4D;
+  color: #E8E6EE;
   padding: 6px;
   margin-bottom: 10px;
   text-align: center;
@@ -132,5 +252,52 @@ footer {
 }
 
 .left-text{
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*home page*/
+#image{
+    width: 100%;
+    width: 400px;
+    height: auto;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+#left, #right{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    bottom: 300px;
+}
+
+#left_arrow, #right_arrow{
+  width: 40px;
+  height: 30px;
+}
+
+#right{
+    right: 375px;
+}
+
+#left{
+  left: 375px;
+}
+
+#left_arrow:hover, #right_arrow:hover {
+    background-color: #adadad;
+}
+
+.carosel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+/*Credibility*/
+#credList li{
+  list-style-position: inside;
+  padding-left: 15px;
 }

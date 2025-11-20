@@ -49,7 +49,7 @@ nav a {
   color: #333;
 }
 
-.nav-menu :hover {
+.nav-menu li a:hover {
   background-color: #cecada;
 }
 
@@ -79,7 +79,7 @@ nav a {
 
 
 .dropdownMenu a {
-  display: block;
+  display: inline-block;
   padding: 10px 16px;
   color: #000;
   text-decoration: none;
@@ -87,7 +87,7 @@ nav a {
 }
 
 
-.dropdownMenu a:hover {
+.dropdownMenu li a:hover {
   background-color: #cecada;
 }
 

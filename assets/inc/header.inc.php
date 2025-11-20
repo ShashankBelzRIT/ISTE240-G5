@@ -38,7 +38,7 @@
           </li>
 
           <li><a href="accessibility.html">Accessibility</a></li>
-          </ul>
+        </ul>
       <button class="settings">Settings</button>
-  </nav>
+    </nav>
   </header>

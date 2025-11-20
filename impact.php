@@ -1,25 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impact</title>
-  <link rel="stylesheet" href="assets\final.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <img src="logo.png" alt="Logo" class="logo">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Why</a></li>
-        <li><a href="impact.html">Research</a></li>
-        <li><a href="accessibility.html">Accessibility</a></li>
-      </ul>
-      <button class="settings">Settings</button>
-    </nav>
-  </header>
+<?php
+    $pageTitle = "Impact";
+    require_once('assets/inc/header.inc.php');
+?>
 
   <main>
     <h1>Impact</h1>
@@ -68,8 +50,6 @@
     </div>
   </main>
 
-  <footer>
-    <p><a href="#">About</a> | <a href="#">Resources</a></p>
-  </footer>
-</body>
-</html>
+<?php
+    require_once('assets/inc/footer.inc.php');
+?>

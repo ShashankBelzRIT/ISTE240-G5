@@ -9,17 +9,17 @@
 <body>
   <header>
     <nav>
-      <img id=logo src="assets/images/logo.png" alt="Logo" class="logo">
+      <img id=logo src="assets/images/logo.png" alt="Logo" class="logo"><a href="index.html">""</a>
       <button id="hamburgerBtn">☰</button>
       
       <ul class="nav-menu">
           <li><a href="home.php">Home</a></li>
           
           <li class="dropdown">
-            <a href="history.html">History</a>
+            <a href="history.php">History</a>
             <ul class="dropdownMenu">
                 <li><a href="press.php">Press</a></li>
-                <li><a href="pixel.html">Pixel</a></li>
+                <li><a href="pixel.php">Pixel</a></li>
             </ul>
           </li>
 
@@ -31,14 +31,19 @@
           </li>
 
           <li class="dropdown">
-            <a href="research.html">Research</a>
+            <a href="research.php">Research</a>
             <ul class="dropdownMenu">
                 <li><a href="impact.php">Impact</a></li>
             </ul>
           </li>
 
+<<<<<<< HEAD
           <li><a href="accessibility.html">Accessibility</a></li>
         </ul>
+=======
+          <li><a href="accessibility.php">Accessibility</a></li>
+          </ul>
+>>>>>>> 89a073defb200677e46df7cdc23eef0123a55209
       <button class="settings">Settings</button>
     </nav>
   </header>

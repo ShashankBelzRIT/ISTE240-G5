@@ -53,30 +53,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 //Hamburger
-let hamburger = document.getElementById('hamburgerBtn');
-console.log('The Hamburger: ');
-console.dir(hamburger);
-hamburger.addEventListener('click', clickMenu);
+// let hamburger = document.getElementById('hamburgerBtn');
+// console.log('The Hamburger: ');
+// console.dir(hamburger);
+// hamburger.addEventListener('click', clickMenu);
 
-function clickMenu() {
-    let nav = getNav();
+// function clickMenu() {
+//     let nav = getNav();
 
-    for (let i = 0, l = nav.classList.length; i < l; i++) {
-        if (nav.classList[i] === 'shown') {
-            nav.classList.remove('shown');
-            return;
-        }
-    }
+//     for (let i = 0, l = nav.classList.length; i < l; i++) {
+//         if (nav.classList[i] === 'shown') {
+//             nav.classList.remove('shown');
+//             return;
+//         }
+//     }
 
-    nav.classList.add('shown');
+//     nav.classList.add('shown');
+// }
+
+// function getNav() {
+//     let navElements = document.getElementsByTagName('nav');
+
+//     if (navElements.length <= 0) {
+//         console.error('There was a problem finding the nav element.');
+//     }
+
+//     return navElements[0];
+// }
+
+const navbar = document.getElementById('hamburger');
+if (navbar) {
+    navbar.addEventListener('click', toggleNavigation);
 }
-
-function getNav() {
-    let navElements = document.getElementsByTagName('nav');
-
-    if (navElements.length <= 0) {
-        console.error('There was a problem finding the nav element.');
+function toggleNavigation() {
+    const menu = document.getElementsByClassName('navigation')[0];
+    if (!menu) {
+        return;
     }
-
-    return navElements[0];
+    menu.classList.toggle('shown');
+    navbar.classList.toggle('shown');
 }

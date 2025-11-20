@@ -160,9 +160,9 @@ nav a {
         flex-direction: column;
     }
 
-    #leftArrow,
-    #rightArrow {
-        display: none;
+    #left, #left_arrow,
+    #right, #right_arrow {
+        flex-direction: column;
     }
 }
 

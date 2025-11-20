@@ -18,8 +18,8 @@
             many viewed it as being credible; after all, once the news is printed, any
             mistakes or inaccuracies made would be visible and impossible to directly correct
             once shipped to customers. This led many print news consumers to assume
-            fact-checking would be held to high standards. Of course, nothing is without its
-            faults, and print media is no exception.</p>
+            fact-checking would be held to high standards. Of c
+            ourse, nothing is without its faults, and print media is no exception.</p>
             
           <p>The fees for the paper, ink, and transportation used in creating and distributing
             print media limit its audience reach geographically and by audience size.

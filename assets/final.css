@@ -91,15 +91,16 @@ nav a {
   background-color: #cecada;
 }
 
-
-.hamburger {
-    display: none;
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: #000000;
-    padding: 16px;
+.hamburgerBtn {
+   position: absolute;
+    z-index: 20;
+    top: 10px;
+    border: 0;
+    padding: 0;
+    width: 30px;
     cursor: pointer;
+    right: -50px;
+    transition: all 0.5s;
 }
 
 .settings {
@@ -112,8 +113,9 @@ nav a {
 }
 
 @media (max-width: 768px) {
-    .hamburger {
+    .hamburgerBtn {
         display: block;
+        right: 10px;
     }
 
     .nav-menu {

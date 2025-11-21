@@ -53,6 +53,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 //Hamburger
+
+const hamburger = document.getElementById('hamburgerBtn');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+});
+
 // let hamburger = document.getElementById('hamburgerBtn');
 // console.log('The Hamburger: ');
 // console.dir(hamburger);

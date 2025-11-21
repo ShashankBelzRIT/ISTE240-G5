@@ -37,8 +37,13 @@
             </ul>
           </li>
 
+<<<<<<< HEAD
+          <li><a href="accessibility.html">Accessibility</a></li>
+        </ul>
+=======
           <li><a href="accessibility.php">Accessibility</a></li>
           </ul>
+>>>>>>> 89a073defb200677e46df7cdc23eef0123a55209
       <button class="settings">Settings</button>
-  </nav>
+    </nav>
   </header>

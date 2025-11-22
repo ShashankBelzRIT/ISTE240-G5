@@ -58,11 +58,11 @@ nav a {
 }
 
 .dropdownMenu {
-  display:none;
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
-  flex-direction: column; 
+  flex-direction: column;
   background-color: #f2f0f6;
   list-style: none;
   padding: 0;
@@ -71,14 +71,14 @@ nav a {
   border: 1px solid #ddd;
   border-radius: 4px;
   z-index: 1000;
+
 }
 
 .dropdown:hover .dropdownMenu {
   display: flex;
 }
 
-
-.dropdownMenu a {
+.dropdownMenu li a {
   display: block;
   padding: 10px 16px;
   color: #000;
@@ -87,8 +87,7 @@ nav a {
 
 }
 
-
-.dropdownMenu  a:hover {
+.dropdownMenu li:hover {
   background-color: #cecada;
 }
 

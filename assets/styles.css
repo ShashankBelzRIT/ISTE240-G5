@@ -140,6 +140,7 @@ h1, h3 {
   text-align: justify;
   border-radius: 10px;
   box-shadow: 0px 4px 10px #0000001a;
+  line-height: 1.5rem;
 }
 
 .cardHistory article {
@@ -159,7 +160,7 @@ h1, h3 {
   background-color: #E8E6EE;
   border-left: 6px solid #922F28;
   padding: 15px;
-  margin: 15px 25px 15px 0;
+  margin: 2rem 2rem 2rem 0;
   border-radius: 6px;
 }
 
@@ -258,8 +259,9 @@ footer {
 }
 
 /*Pixel*/
-#pixelImages{
+#pixelImages > img{
   max-width: 500px;
+  width: 100%;
   height: auto;
 }
 

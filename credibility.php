@@ -62,8 +62,7 @@
             <li>Larger variety of sources</li>
             <li>Further information on topics is more accessible</li>
           </ul>
-
-
+          
       </p>
     </div>
   </main>

@@ -17,7 +17,7 @@
                 and proximity to group-related information.
             </p>
 
-            <div class="interactive-element">
+            <section class="interactive-element">
                 <h3>Interactive Element</h3>
                 <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
                 <ul>
@@ -25,7 +25,7 @@
                     <li>Platea dictumst</li>
                     <li>Proin eget odio</li>
                 </ul>
-            </div>
+            </section>
 
             <p>
                 Digital news networks have a stronger grasp on 

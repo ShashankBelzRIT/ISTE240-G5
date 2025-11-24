@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From Press to Pixel - <?php echo isset($pageTitle) ? htmlspecialchars($pageTitle) : "From Press to Pixel"; ?></title>
-    <link rel="stylesheet" href="assets\final.css">
+    <link rel="stylesheet" href="assets/final.css">
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="navbar">
       <a href="home.php"><img id=logo src="assets/images/logo.png" alt="Logo" class="logo"></a>
       <button id="hamburgerBtn">☰</button>
       
       <ul class="nav-menu">
-          <li><a href="home.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           
           <li class="dropdown">
             <a href="history.php">History</a>
@@ -38,7 +38,7 @@
           </li>
 
           <li><a href="accessibility.php">Accessibility</a></li>
-          </ul>
+        </ul>
       <button class="settings">Settings</button>
     </nav>
   </header>

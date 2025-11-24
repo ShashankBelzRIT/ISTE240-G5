@@ -3,7 +3,8 @@
     require_once('assets/inc/header.inc.php');
 ?>
 
-  <main>
+  <main class="content">
+
     <h1>History</h1>
     <p>Since the surge in learning and the spread of information from the times of Jonathan
        Gutenberg and his movable type printing press around the 1400s, print had become an
@@ -28,6 +29,7 @@
                           as great motivation for journalists to avoid making critical
                            mistakes or inaccuracies before presenting the news to the public.
                             Of course, nothing is ever truly without its faults, and print media is no exception.</p>
+                            
     <article class="cardHistory">
       <h2>Print</h2>
       <img src="assets/images/history/printingPress.png" alt="Gutenberg using his printing press.">

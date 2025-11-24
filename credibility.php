@@ -45,7 +45,7 @@
             <li>Generally less bias</li>
           </ul>
 
-          <div class="crap">
+          <section class="crap">
             <h3>CRAP Principle</h3>
             <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
             <ul>
@@ -53,7 +53,7 @@
                 <li>Platea dictumst</li>
                 <li>Proin eget odio</li>
             </ul>
-          </div>
+          </section>
 
           <ul id = "credList">
             <l1><h4>Digital</h4></l1>

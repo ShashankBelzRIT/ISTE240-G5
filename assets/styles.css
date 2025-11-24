@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+main{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -31,29 +36,28 @@ h1{
   margin: 5px auto;
 }
 
-nav {
+.navbar {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
+  padding: 0 16px;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 15px;
+.nav-menu > li {
+  position: relative;
+  margin: 0 10px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #333;
-  padding: 8px 10px;
+/* Nav links */
+.nav-menu a {
   display: block;
-  border-radius: 4px;
+  padding: 12px 20px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
 }
 
 .nav-menu a:hover {
-  background-color: #cecada;
+  background-color: #ceceda;
 }
 
 .dropdown {
@@ -84,13 +88,15 @@ nav a {
 .dropdownMenu li a {
   display: block;
   padding: 10px 16px;
-  color: #000;
-  text-decoration: none;
-  white-space: nowrap; 
-
+  color: #000000;
+  text-align: center;
 }
 
-.dropdownMenu li:hover {
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+
+.dropdownMenu li a:hover {
   background-color: #cecada;
 }
 
@@ -113,60 +119,6 @@ nav a {
   padding: 8px 14px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    #hamburgerBtn {
-        display: block;
-        right: 10px;
-    }
-
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        background-color: transparent;
-        width: 100%;
-        padding: 10px 0;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        border-top: 1px solid #ccc;
-    }
-
-    .nav-menu.active {
-        display: flex;
-    }
-
-    .nav-menu > li {
-        width: 100%;
-    }
-
-    .dropdown:hover .dropdownMenu {
-        display: none;
-    }
-
-    .dropdownMenu {
-        position: static;
-        display: none;
-        background-color: transparent;
-    }
-
-    .dropdown:hover .dropdownMenu {
-      display: none;
-  }
-
-    .dropdown.active .dropdownMenu {
-        display: block;
-    }
-
-    #carousel {
-        flex-direction: column;
-    }
-
-    #left, #left_arrow,
-    #right, #right_arrow {
-        flex-direction: column;
-    }
 }
 
 /* Main content */
@@ -303,4 +255,59 @@ footer {
 #credList li{
   list-style-position: inside;
   padding-left: 15px;
+}
+
+
+@media (max-width: 768px) {
+    #hamburgerBtn {
+        display: block;
+        right: 10px;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: transparent;
+        width: 100%;
+        padding: 10px 0;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu > li {
+        width: 100%;
+    }
+
+    .dropdown:hover .dropdownMenu {
+        display: none;
+    }
+
+    .dropdownMenu {
+        position: static;
+        display: none;
+        background-color: transparent;
+    }
+
+    .dropdown:hover .dropdownMenu {
+      display: none;
+  }
+
+    .dropdown.active .dropdownMenu {
+        display: block;
+    }
+
+    #carousel {
+        flex-direction: column;
+    }
+
+    #left, #left_arrow,
+    #right, #right_arrow {
+        flex-direction: column;
+    }
 }

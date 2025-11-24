@@ -15,7 +15,7 @@
         it’s a moral and design imperative that benefits all users.
       </p>
 
-      <div class="interactive-element">
+      <section class="interactive-element">
         <h3>Interactive Element</h3>
         <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
         <ul>
@@ -23,7 +23,7 @@
           <li>Platea dictumst</li>
           <li>Proin eget odio</li>
         </ul>
-      </div>
+      </section>
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et urna id ex aliquam faucibus.

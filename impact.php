@@ -14,7 +14,7 @@
         it’s a moral and design imperative that benefits all users.
       </p>
 
-      <div class="crap">
+      <section class="crap">
         <h3>CRAP Principle</h3>
         <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
         <ul>
@@ -22,7 +22,7 @@
           <li>Platea dictumst</li>
           <li>Proin eget odio</li>
         </ul>
-      </div>
+      </section>
 
       <p class="left-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et urna id ex aliquam faucibus.

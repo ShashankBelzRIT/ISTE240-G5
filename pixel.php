@@ -4,12 +4,13 @@
 ?>
 
 <body>
-<main>
+    <main>
         <h1>Pixel</h1>
-        <div id="pixelImages">
+        <section id="pixelImages">
             <img src="assets/images/pixel/AllSides.png" alt="Layout of AllSides 'Balanced News & Perspectives' page.">
             <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
-        </div>
+        </section>
+
         <div id="pixelContent">
             <h2>Good Crap</h2>
             <p class="pixel">
@@ -19,8 +20,10 @@
                   Even when purely observing the header, we can see a concise set of tabs and a nav bar that grabs the reader's
                    attention while also not being too detailed to the point that the actual articles seem dull and boring to read.
             </p>
+
             <br>
             <h2>Bad Crap</h2>
+            
             <p class="pixel">
                 The New York Times follows a more original newspaper format, which many readers flocked to once newspapers began to
                 dwindle in relevance. While this page utilizes mainly black and white for its color scheme, the contrasts of its

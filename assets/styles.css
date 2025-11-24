@@ -47,13 +47,9 @@ h1{
   margin: 0 10px;
 }
 
-/* Nav links */
-.nav-menu a {
-  display: block;
-  padding: 12px 20px;
-  color: #000000;
+nav a {
   text-decoration: none;
-  text-align: center;
+  color: #333;
 }
 
 .nav-menu a:hover {

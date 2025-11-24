@@ -35,7 +35,7 @@
           that follow unbiased values. 
       </p> 
 
-      <p class="clear">
+      <p>
           In terms of the differences between print news and digital news sources for 
           fake news and bias, here are some pros for both:
           <ul id = "credList">
@@ -47,11 +47,11 @@
 
           <section class="crap">
             <h3>CRAP Principle</h3>
-            <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
+            <p>What CRAP principal can help you detect fake news or not?</p>
             <ul>
-                <li>In hac habitasse</li>
-                <li>Platea dictumst</li>
-                <li>Proin eget odio</li>
+                <li>Alignment</li>
+                <li>Repetition</li>
+                <li>Proximity</li>
             </ul>
           </section>
 

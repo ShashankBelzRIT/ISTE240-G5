@@ -38,7 +38,7 @@
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
       </p>
 
-      <p class="clear">
+      <p>
         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac
         habitasse platea dictumst. Proin eget odio consequat, hendrerit orci vitae, volutpat quam. Nullam eros
         nibh, scelerisque eget imperdiet quis, mollis eget mauris.

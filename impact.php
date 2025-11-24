@@ -7,45 +7,27 @@
     <h1>Impact</h1>
 
     <div class="content">
+      <h2>Press</h2>
       <p>
-        Accessibility ensures that everyone, regardless of ability, can engage with digital experiences.
-        It focuses on providing equal access and usability for people with diverse needs, such as visual,
-        auditory, motor, or cognitive differences. This is not just a legal requirement in many regions —
-        it’s a moral and design imperative that benefits all users.
+        Newspapers have been a large industry that spans over 4 centuries. 
+        As you would guess, newspapers are made out of paper, shocker, I know. 
+        Over those 4 centuries, the industry has depleted a large amount of paper 
+        and, in turn, trees as a result of this industry. In 2006, newspapers 
+        generated 5.25 million tons more waste than in 1960. The manufacturing 
+        process itself consumes vast quantities of water and energy and relies 
+        on chemicals and inks that can pollute air and water sources. Overall, 
+        the print media industry places a heavy strain on natural resources and 
+        ecosystems, making its environmental footprint difficult to ignore.
       </p>
 
-      <section class="crap">
-        <h3>CRAP Principle</h3>
-        <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
-        <ul>
-          <li>In hac habitasse</li>
-          <li>Platea dictumst</li>
-          <li>Proin eget odio</li>
-        </ul>
-      </section>
-
-      <p class="left-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et urna id ex aliquam faucibus.
-        Integer efficitur tincidunt justo scelerisque pharetra. Integer commodo, lacus ac ornare dignissim,
-        dolor mauris iaculis dolor, eget finibus odio arcu nec lectus. Sed mollis, velit non suscipit rutrum,
-        risus nunc pharetra sem, eu suscipit lacus arcu ut tellus.
-      </p>
-
-      <p>
-        Phasellus mauris tortor, congue vestibulum nunc in, accumsan luctus diam. Sed vehicula ut purus a
-        dapibus. Donec auctor lectus justo, et tincidunt tortor pharetra id. Aenean porta pharetra molestie.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
-      </p>
-
-      <p class="clear">
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac
-        habitasse platea dictumst. Proin eget odio consequat, hendrerit orci vitae, volutpat quam. Nullam eros
-        nibh, scelerisque eget imperdiet quis, mollis eget mauris.
-      </p>
-
-      <p>
-        Cras interdum lorem sit amet erat fermentum, eget convallis odio posuere. Nunc dapibus, urna in
-        suscipit aliquet, est libero facilisis sem, at ultricies eros nisi ut magna.
+      <h2>Pixel</h2>
+        <p>Digital media, on the other hand, contributes very little to the waste of natural 
+          resources such as paper; however, this switch from print to digital media has led 
+          to an increase in electronic waste. In order to access digital media, an electronic 
+          device is required. The production of these devices requires mining for rare earth 
+          metals, generating pollution and habitat destruction. Overall, while digital media 
+          reduces some environmental burdens of print, its global energy demands and electronic 
+          waste present serious sustainability challenges if left unchecked.
       </p>
     </div>
   </main>

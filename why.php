@@ -36,23 +36,6 @@
                 principles allow users to interact with media easily, and without them, news media would be more 
                 confusing and less beneficial for all parties. 
             </p>
-
-            <p>
-                Phasellus mauris tortor, congue vestibulum nunc in, accumsan luctus diam. Sed vehicula ut purus a
-                dapibus. Donec auctor lectus justo, et tincidunt tortor pharetra id. Aenean porta pharetra molestie.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
-            </p>
-
-            <p class="clear">
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac
-                habitasse platea dictumst. Proin eget odio consequat, hendrerit orci vitae, volutpat quam. Nullam eros
-                nibh, scelerisque eget imperdiet quis, mollis eget mauris.
-            </p>
-
-            <p>
-                Cras interdum lorem sit amet erat fermentum, eget convallis odio posuere. Nunc dapibus, urna in
-                suscipit aliquet, est libero facilisis sem, at ultricies eros nisi ut magna.
-            </p>
         </div>
     </main>
 

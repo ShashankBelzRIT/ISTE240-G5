@@ -8,10 +8,13 @@
 
     <div class="content">
       <p>
-        Accessibility ensures that everyone, regardless of ability, can engage with digital experiences.
-        It focuses on providing equal access and usability for people with diverse needs, such as visual,
-        auditory, motor, or cognitive differences. This is not just a legal requirement in many regions —
-        it’s a moral and design imperative that benefits all users.
+        The organization of information is highly important to the way we process it. 
+        Our eyes read by rapidly moving across lines of text in a series of quick jumps.
+         So as the length of texts increases, our brains skip over more information.
+          Following CRAP, however, allows for the best chance at retaining information.
+           For example, in teacher training, emphasis on CRAP in visual literacy programs
+            has been shown to significantly increase teachers’ ability to create educational 
+            materials that are both more engaging and clearer for students, improving comprehension and retention.
       </p>
 
       <section class="crap">
@@ -25,35 +28,13 @@
       </section>
 
       <p class="left-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et urna id ex aliquam faucibus.
-        Integer efficitur tincidunt justo scelerisque pharetra. Integer commodo, lacus ac ornare dignissim,
-        dolor mauris iaculis dolor, eget finibus odio arcu nec lectus. Sed mollis, velit non suscipit rutrum,
-        risus nunc pharetra sem, eu suscipit lacus arcu ut tellus.
+        A website should not be a book; the information must be formatted in a way to 
+        entice the reader. Having paragraph upon paragraph just bores the reader and 
+        hinders the effectiveness of your website. Statistics show that the easier a 
+        group of text is on the eyes based on text size, colors, and other factors, 
+        the better a reader’s comprehension of the text. There are sources all over 
+        the internet that are on a large spectrum of following these tactics horribly or very well.
       </p>
-
-      <section class="interactive-element">
-        <h3>Interactive element</h3>
-        <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
-        <ul>
-          <li>In hac habitasse</li>
-          <li>Platea dictumst</li>
-          <li>Proin eget odio</li>
-        </ul>
-      </section>
-
-      <p>
-        Phasellus mauris tortor, congue vestibulum nunc in, accumsan luctus diam. Sed vehicula ut purus a
-        dapibus. Donec auctor lectus justo, et tincidunt tortor pharetra id. Aenean porta pharetra molestie.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
-      </p>
-
-      <p class="left-text">
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac
-        habitasse platea dictumst. Proin eget odio consequat, hendrerit orci vitae, volutpat quam. Nullam eros
-        nibh, scelerisque eget imperdiet quis, mollis eget mauris. Cras interdum lorem sit amet erat fermentum, eget convallis odio posuere. Nunc dapibus, urna in
-        suscipit aliquet, est libero facilisis sem, at ultricies eros nisi ut magna.
-      </p>
-      
     </div>
   </main>
 

@@ -11,9 +11,9 @@
             <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
         </section>
 
-        <div id="pixelContent">
+        <div class="content">
             <h2>Good Crap</h2>
-            <p class="pixel">
+            <p>
                 AllSides demonstrates a great use of the CRAP principle, allowing for a thorough, friendly user experience. News 
                 political ideologies are color-coded to ensure the user can find exactly what they are looking for. Each of the
                  article headings beneath the various color codings hvae a uniform format and alignment repeated across the page.
@@ -21,10 +21,20 @@
                    attention while also not being too detailed to the point that the actual articles seem dull and boring to read.
             </p>
 
+            <section class="crap">
+                <h3>CRAP Principle</h3>
+                <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
+                <ul>
+                    <li>In hac habitasse</li>
+                    <li>Platea dictumst</li>
+                    <li>Proin eget odio</li>
+                </ul>
+            </section>
+
             <br>
-            <h2>Bad Crap</h2>
             
-            <p class="pixel">
+            <h2>Bad Crap</h2>
+            <p>
                 The New York Times follows a more original newspaper format, which many readers flocked to once newspapers began to
                 dwindle in relevance. While this page utilizes mainly black and white for its color scheme, the contrasts of its
                  text directly paired with their advertisements, is too low. Beyond that, the overall content's structure fulfills the
@@ -33,6 +43,7 @@
             </p>
         </div>
     </main>
+
 <?php
     require_once('assets/inc/footer.inc.php');
 ?>

@@ -47,13 +47,16 @@
 
           <section class="crap">
             <h3>CRAP Principle</h3>
-            <p>What CRAP principal can help you detect fake news or not?</p>
-            <ul>
-                <li>Alignment</li>
-                <li>Repetition</li>
-                <li>Proximity</li>
-            </ul>
+            <p>What CRAP principle can help you detect a poor news website?</p>
+            <br>
+            <div id="crap_trigger">Hover over me to see!
+              <p id="crap_answer">Alignment!<br>
+                If a website has poor alignment, then it may indicate a cheaply made
+                and untrustable website.
+              </p>
+            </div>
           </section>
+
 
           <ul id = "credList">
             <l1><h4>Digital</h4></l1>
@@ -62,7 +65,7 @@
             <li>Larger variety of sources</li>
             <li>Further information on topics is more accessible</li>
           </ul>
-          
+
       </p>
     </div>
   </main>

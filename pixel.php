@@ -3,15 +3,13 @@
     require_once('assets/inc/header.inc.php');
 ?>
 
-<body>
     <main>
         <h1>Pixel</h1>
+        <div class="content">
         <section id="pixelImages">
             <img src="assets/images/pixel/AllSides.png" alt="Layout of AllSides 'Balanced News & Perspectives' page.">
             <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
         </section>
-
-        <div class="content">
             <h2>Good Crap</h2>
             <p>
                 AllSides demonstrates a great use of the CRAP principle, allowing for a thorough, friendly user experience. News 

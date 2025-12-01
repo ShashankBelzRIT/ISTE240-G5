@@ -228,3 +228,16 @@ function toggleNavigation() {
     menu.classList.toggle('shown');
     navbar.classList.toggle('shown');
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const revealButton = document.getElementById('crap_trigger');
+    const hiddenContent = document.getElementById('crap_answer');
+
+    revealButton.addEventListener('click', function() {
+        if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'block';
+        } else {
+            hiddenContent.style.display = 'none';
+        }
+    });
+});

@@ -21,12 +21,20 @@
 
             <section class="crap">
                 <h3>CRAP Principle</h3>
-                <p>In AllSides, which of the following is not a CRAP principle excellently demonstrated by that site?</p>
-                <ul>
-                    <li>Repetition</li>
-                    <li>Alignment</li>
-                    <li>Contrast</li>
-                </ul>
+                <p>In AllSides, which of the following is not a CRAP principle excellently 
+                    demonstrated by that site?</p>
+                <br>
+                <div id="crap_trigger">
+                    <ul>
+                        <li>Repetition</li>
+                        <li>Alignment</li>
+                        <li>Contrast</li>
+                    </ul>
+                    <p id="crap_answer">Hover over me to see!<br>
+                        Repetition! AllSides utilizied good repeitiion to ensure the user was seeing a page 
+                        with organized and coherant information. 
+                    </p>
+                </div>
             </section>
 
             <br>

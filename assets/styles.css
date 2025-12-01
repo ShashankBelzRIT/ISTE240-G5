@@ -142,7 +142,7 @@ nav a {
 }
 
 #hamburgerBtn {
-   position: absolute;
+    position: absolute;
     z-index: 20;
     top: 10px;
     border: 0;
@@ -242,14 +242,19 @@ h1, h3 {
   line-height: 1.5rem;
 }
 
-.cardHistory article {
+.cardHistory {
+  border: 2px black;
   max-width: 400px;
   padding: 20px;
   text-align: justify;
 }
-.cardHistory article > img {
+.cardHistory > img {
+  display:inline-block;
   max-width: fit-content;
+  width: 100%;
   max-height: fit-content;
+  height: auto;
+  margin: 0 auto;
 }
 
 /*floats interactive element to the left*/
@@ -371,6 +376,12 @@ footer {
   margin: 0 auto;
 }
 
+/*Why*/
+#whyImage{
+  width: 200px;
+  height: auto;
+  width: 100%;
+}
 
 /*Credibility*/
 #credList li{

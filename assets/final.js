@@ -17,6 +17,7 @@ const image_sources = [
 // newpaper 4 - https://stockcake.com/i/busy-newsroom-activity_1413886_585651
 // newspaper 5 - https://www.istockphoto.com/search/2/image-film?phrase=digital+news+headlines
 
+
 var img_index = 0;
 function right(){
     img_index++;
@@ -51,9 +52,9 @@ document.addEventListener("DOMContentLoaded", () => {setInterval
     timerInterval = setInterval(auto, 4500);
 });
 
+
+
 //Accessibility Toggles
-
-
 document.addEventListener("DOMContentLoaded", function() {
 
   const textBtn = document.getElementById('textToggleBtn');
@@ -189,15 +190,12 @@ function toggleNavigation() {
     navbar.classList.toggle('shown');
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const revealButton = document.getElementById('crap_trigger');
-    const hiddenContent = document.getElementById('crap_answer');
+function toggleCrapAnswer() {
+  const hiddenContent = document.getElementById('crap_answer');
+  if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {
+    hiddenContent.style.display = 'block';
+  } else {
+    hiddenContent.style.display = 'none';
+  }
+}
 
-    revealButton.addEventListener('click', function() {
-        if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'block';
-        } else {
-            hiddenContent.style.display = 'none';
-        }
-    });
-});

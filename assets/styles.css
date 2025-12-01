@@ -317,11 +317,7 @@ footer {
   display: none;
 }
 
-#crap_trigger:hover #crap_answer {
-  display: block;
-}
-
-#crapList{
+#crapList {
   list-style: none;
 }
 

@@ -19,6 +19,7 @@ const image_sources = [
 
 
 var img_index = 0;
+var image_sources = 0;
 function right(){
     img_index++;
     if (img_index > image_sources.length){

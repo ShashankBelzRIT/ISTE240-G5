@@ -243,6 +243,8 @@ h1, h3 {
 }
 
 .cardHistory {
+  display: inline;
+  border: 2px black;
   max-width: 400px;
   padding: 20px;
   text-align: justify;

@@ -263,8 +263,10 @@ footer {
 }
 
 /*Pixel*/
-.pixelImages section > img{
-  max-width: fit-content;
+.pixelImages > img{
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
   max-height: fit-content;
 }
 

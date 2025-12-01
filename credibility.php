@@ -49,12 +49,12 @@
             <h3>CRAP Principle</h3>
             <p>What CRAP principle can help you detect a poor news website?</p>
             <br>
-            <div id="crap_trigger">Hover over me to see!
-              <p id="crap_answer">Alignment!<br>
+            <button id="crap_trigger">Hover over me to see!</button>
+              <p id="crap_answer"><br>
+                Alignment! <br>
                 If a website has poor alignment, then it may indicate a cheaply made
                 and untrustable website.
               </p>
-            </div>
           </section>
 
 

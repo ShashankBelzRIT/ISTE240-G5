@@ -321,6 +321,10 @@ footer {
   display: block;
 }
 
+#crapList{
+  list-style: none;
+}
+
 .left-text{
   flex-wrap: wrap;
 }
@@ -368,7 +372,7 @@ footer {
 /*Pixel*/
 .pixelImages > img{
   display: inline-block;
-  max-width: 400px;
+align-self: start;  max-width: 400px;
   width: 100%;
   max-height: fit-content;
   height: auto;

@@ -15,7 +15,26 @@
                 inks that can pollute air and water sources. Overall, the print media industry places a heavy strain on natural
                 resources and ecosystems, making its environmental footprint difficult to ignore.
             </p>
-            <p>Print media’s rise in accessibility began with the introduction of braille newspapers, which allowed the blind to
+
+            <section class="crap">
+                <h3>CRAP Principle</h3>
+                <p>In AllSides, which of the following is not a CRAP principle excellently 
+                    demonstrated by that site?</p>
+                <br>
+                <div id="crap_trigger">
+                    <ul id="crapList">
+                        <li>Repetition</li>
+                        <li>Alignment</li>
+                        <li>Contrast</li>
+                    </ul>
+                    <p id="crap_answer">Hover over me to see!<br>
+                        Repetition! AllSides utilizied good repeitiion to ensure the user was seeing a page 
+                        with organized and coherant information. 
+                    </p>
+                </div>
+            </section>
+
+            <p> Print media’s rise in accessibility began with the introduction of braille newspapers, which allowed the blind to
                 read physical newspapers without them being read to them. This raised empowerment amongst the blind community as
                 they were allowed more autonomy and independence from a society that declared them dependent.
             </p>

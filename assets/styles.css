@@ -149,8 +149,12 @@ h1, h3 {
   text-align: justify;
 }
 .cardHistory article > img {
-  max-width: fit-content;
+  display:inline-block;
+  max-width: 400px;
+  width: 100%;
   max-height: fit-content;
+  height: auto;
+  margin: 0 auto;
 }
 
 /*floats interactive element to the left*/

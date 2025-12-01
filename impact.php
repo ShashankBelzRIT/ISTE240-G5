@@ -20,6 +20,31 @@
         ecosystems, making its environmental footprint difficult to ignore.
       </p>
 
+      <section class="interactive-element" aria-labelledby="poll-title">
+                <h3 id="poll-title">Quick Poll: Based on the impacts which form are you more likely to use?</h3>
+                <p>Pick one and see the results update instantly.</p>
+                <form id="crapPoll">
+                    <label>
+                        <input type="radio" name="poll" value="contrast">
+                        Press
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="poll" value="repetition">
+                        Pixel
+                    </label><br>
+
+                        <button type="button" id="voteBtn">Submit Vote</button>
+                    </form>
+
+                    <p id="pollMessage" role="status" aria-live="polite"></p>
+
+                    <ul id="pollResults" hidden>
+                        <li>Press: <span id="contrastCount">0</span></li>
+                        <li>Pixel: <span id="repetitionCount">0</span></li>
+                    </ul>
+                </section>
+
       <h2>Pixel</h2>
         <p>Digital media, on the other hand, contributes very little to the waste of natural 
           resources such as paper; however, this switch from print to digital media has led 

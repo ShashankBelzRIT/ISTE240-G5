@@ -51,6 +51,121 @@ document.addEventListener("DOMContentLoaded", () => {setInterval
     timerInterval = setInterval(auto, 4500);
 });
 
+//Accessibility Toggles
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  const textBtn = document.getElementById('textToggleBtn');
+  const contrastBtn = document.getElementById('contrastToggleBtn');
+  const fontBtn = document.getElementById('fontToggleBtn');
+
+  if (textBtn) {
+    textBtn.addEventListener('click', () => {
+      document.body.classList.toggle('large-text');
+      const isPressed = textBtn.getAttribute('aria-pressed') === 'true';
+      textBtn.setAttribute('aria-pressed', !isPressed);
+      console.log("Large text toggled");
+    });
+  }
+
+  if (contrastBtn) {
+    contrastBtn.addEventListener('click', () => {
+      document.body.classList.toggle('high-contrast');
+      const isPressed = contrastBtn.getAttribute('aria-pressed') === 'true';
+      contrastBtn.setAttribute('aria-pressed', !isPressed);
+      console.log("High contrast toggled");
+    });
+  }
+
+  if (fontBtn) {
+    fontBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dyslexia-font');
+      const isPressed = fontBtn.getAttribute('aria-pressed') === 'true';
+      fontBtn.setAttribute('aria-pressed', !isPressed);
+      console.log("Font toggled");
+    });
+  }
+
+});
+
+//poll
+document.addEventListener("DOMContentLoaded", function () {
+
+    const button = document.getElementById("voteBtn");
+    const message = document.getElementById("pollMessage");
+    const results = document.getElementById("pollResults");
+
+    const contrastCount = document.getElementById("contrastCount");
+    const repetitionCount = document.getElementById("repetitionCount");
+    const alignmentCount = document.getElementById("alignmentCount");
+    const proximityCount = document.getElementById("proximityCount");
+
+    // Check if this user already voted
+    let hasVoted = localStorage.getItem("hasVotedCrapPoll") === "true";
+
+    // Load saved votes OR start at 0
+    let counts = JSON.parse(localStorage.getItem("crapPollVotes")) || {
+        contrast: 0,
+        repetition: 0,
+        alignment: 0,
+        proximity: 0
+    };
+
+    function updateDisplay() {
+        contrastCount.textContent = counts.contrast;
+        repetitionCount.textContent = counts.repetition;
+        alignmentCount.textContent = counts.alignment;
+        proximityCount.textContent = counts.proximity;
+
+        if (counts.contrast + counts.repetition + counts.alignment + counts.proximity > 0) {
+            results.hidden = false;
+        }
+    }
+
+    updateDisplay();
+
+    // If user already voted, lock the poll
+    if (hasVoted) {
+        button.disabled = true;
+        message.textContent = "You already voted in this poll.";
+    }
+
+    button.addEventListener("click", function () {
+
+        if (hasVoted) {
+            message.textContent = "You already voted in this poll.";
+            return;
+        }
+
+        const selected = document.querySelector('input[name="poll"]:checked');
+
+        if (!selected) {
+            message.textContent = "Please choose an option before voting.";
+            return;
+        }
+
+        const value = selected.value;
+
+        // Increase vote count
+        counts[value]++;
+
+        // Save results
+        localStorage.setItem("crapPollVotes", JSON.stringify(counts));
+
+        // Mark user as voted (FOREVER)
+        localStorage.setItem("hasVotedCrapPoll", "true");
+        hasVoted = true;
+
+        updateDisplay();
+
+        results.hidden = false;
+        message.textContent = "Thanks for voting! Your response has been saved.";
+        button.disabled = true;
+    });
+
+});
+
 
 //Hamburger
 

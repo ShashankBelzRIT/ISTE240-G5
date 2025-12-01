@@ -242,14 +242,14 @@ h1, h3 {
   line-height: 1.5rem;
 }
 
-.cardHistory article {
+.cardHistory {
   max-width: 400px;
   padding: 20px;
   text-align: justify;
 }
-.cardHistory article > img {
+.cardHistory > img {
   display:inline-block;
-  max-width: 400px;
+  max-width: fit-content;
   width: 100%;
   max-height: fit-content;
   height: auto;

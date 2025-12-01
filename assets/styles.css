@@ -263,7 +263,7 @@ footer {
 }
 
 /*Pixel*/
-#pixelImages img{
+.pixelImages section > img{
   max-width: fit-content;
   max-height: fit-content;
 }

@@ -6,7 +6,7 @@
     <main>
         <h1>Pixel</h1>
         <div class="content">
-        <section id="pixelImages">
+        <section class="pixelImages">
             <img src="assets/images/pixel/AllSides.png" alt="Layout of AllSides 'Balanced News & Perspectives' page.">
             <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
         </section>

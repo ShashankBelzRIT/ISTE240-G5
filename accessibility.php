@@ -46,27 +46,25 @@
       </section> -->
 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et urna id ex aliquam faucibus.
-        Integer efficitur tincidunt justo scelerisque pharetra. Integer commodo, lacus ac ornare dignissim,
-        dolor mauris iaculis dolor, eget finibus odio arcu nec lectus. Sed mollis, velit non suscipit rutrum,
-        risus nunc pharetra sem, eu suscipit lacus arcu ut tellus.
+        Print media’s rise in accessibility began with the introduction of braille newspapers, Which allowed the blind to read physical newspapers without them being read to them. 
+        This raised empowerment amongst the blind community as they were allowed more autonomy and independence from a society that declared them dependent.
       </p>
 
       <p>
-        Phasellus mauris tortor, congue vestibulum nunc in, accumsan luctus diam. Sed vehicula ut purus a
-        dapibus. Donec auctor lectus justo, et tincidunt tortor pharetra id. Aenean porta pharetra molestie.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+       
+      </p> 
+      When digital media was first created, its access was restricted to those who needed accessibility. Once the DOJ clarified that Title III of the Americans with Disabilities Act declared websites as public accommodations. As a public accommodation, it is required to be accessible to all.
+
+      <p>
+        With the rise of digital media, accessibility has become a crucial aspect of web design. 
+        Various tools and techniques have been developed to enhance accessibility, such as screen readers, 
+        keyboard navigation, alt text for images, and adjustable text sizes. These tools help ensure that 
+        individuals with disabilities can access and interact with digital content effectively.
       </p>
 
       <p>
-        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac
-        habitasse platea dictumst. Proin eget odio consequat, hendrerit orci vitae, volutpat quam. Nullam eros
-        nibh, scelerisque eget imperdiet quis, mollis eget mauris.
-      </p>
+        As society has developed, the flow of media has increased, reaching so many different eyes. With society’s reliance on media, its accessibility becomes of utmost importance. To be able to access vital information regardless of your disability is a privilege that many aren’t afforded. From varying levels of blindness, hearing, and motor function loss, there are many who are limited in their choices of digital media. While devices themselves may offer accessibility functions, these can be pricey and aren’t always accessible. Therefore, it is highly recommended for sites themselves to provide forms of accessibility to further increase their reach.
 
-      <p>
-        Cras interdum lorem sit amet erat fermentum, eget convallis odio posuere. Nunc dapibus, urna in
-        suscipit aliquet, est libero facilisis sem, at ultricies eros nisi ut magna.
       </p>
     </div>
   </main>

@@ -17,39 +17,79 @@ const image_sources = [
 // newpaper 4 - https://stockcake.com/i/busy-newsroom-activity_1413886_585651
 // newspaper 5 - https://www.istockphoto.com/search/2/image-film?phrase=digital+news+headlines
 
-var img_index = 0;
-function right(){
-    img_index++;
-    if (img_index > image_sources.length){
-        img_index = 0;
-    }
 
-    const imgElement = document.getElementById("image");
-    // console.log(image_sources[img_index]);
+let img_index = 0;
+let timerInterval;
+
+function right(){
+  img_index++;
+
+  if (img_index >= image_sources.length){
+    img_index = 0;
+  }
+
+  const imgElement = document.getElementById("image");
+
+  if (imgElement) {
     imgElement.src = image_sources[img_index];
+  }
 }
 
 function left(){
-    img_index--;
+  img_index--;
 
-    if (img_index < 0){
-        img_index = image_sources.length - 1;
-    }
+  if (img_index < 0){
+    img_index = image_sources.length - 1;
+  }
 
-    const imgElement = document.getElementById("image");
+  const imgElement = document.getElementById("image");
+
+  if (imgElement) {
     imgElement.src = image_sources[img_index];
+  }
 }
-
-let timer = 0;
-let timerInterval;
 
 function auto(){
-    right();
+  right();
 }
 
-document.addEventListener("DOMContentLoaded", () => {setInterval
-    timerInterval = setInterval(auto, 4500);
+document.addEventListener("DOMContentLoaded", () => {
+  timerInterval = setInterval(auto, 4500);
 });
+
+// var img_index = 0;
+// function right(){
+//     img_index++;
+//     if (img_index > image_sources.length){
+//         img_index = 0;
+//     }
+
+//     const imgElement = document.getElementById("image");
+//     // console.log(image_sources[img_index]);
+//     imgElement.src = image_sources[img_index];
+// }
+
+// function left(){
+//     img_index--;
+
+//     if (img_index < 0){
+//         img_index = image_sources.length - 1;
+//     }
+
+//     const imgElement = document.getElementById("image");
+//     imgElement.src = image_sources[img_index];
+// }
+
+// let timer = 0;
+// let timerInterval;
+
+// function auto(){
+//     right();
+// }
+
+// document.addEventListener("DOMContentLoaded", () => {setInterval
+//     timerInterval = setInterval(auto, 4500);
+// });
 
 //Accessibility Toggles
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From Press to Pixel - <?php echo isset($pageTitle) ? htmlspecialchars($pageTitle) : "From Press to Pixel"; ?></title>
-    <link rel="stylesheet" href="assets/final.css">
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header>

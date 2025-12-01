@@ -97,7 +97,7 @@ nav a {
 }
 
 #hamburgerBtn {
-   position: absolute;
+    position: absolute;
     z-index: 20;
     top: 10px;
     border: 0;
@@ -269,6 +269,12 @@ footer {
   height: auto;
 }
 
+/*Why*/
+#whyImage{
+  width: 200px;
+  height: auto;
+  width: 100%;
+}
 
 /*Credibility*/
 #credList li{

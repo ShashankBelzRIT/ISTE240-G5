@@ -265,6 +265,8 @@ footer {
 /*Pixel*/
 .pixelImages > img{
   display: inline-block;
+  border: 2px #000000;
+  border-radius: 12px;
   max-width: 400px;
   width: 100%;
   max-height: fit-content;

@@ -243,7 +243,6 @@ h1, h3 {
 }
 
 .cardHistory {
-  display: inline;
   border: 2px black;
   max-width: 400px;
   padding: 20px;
@@ -323,10 +322,6 @@ footer {
   display: block;
 }
 
-#crapList{
-  list-style: none;
-}
-
 .left-text{
   flex-wrap: wrap;
 }
@@ -374,7 +369,7 @@ footer {
 /*Pixel*/
 .pixelImages > img{
   display: inline-block;
-align-self: start;  max-width: 400px;
+  max-width: 400px;
   width: 100%;
   max-height: fit-content;
   height: auto;

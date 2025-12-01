@@ -140,6 +140,7 @@ h1, h3 {
   text-align: justify;
   border-radius: 10px;
   box-shadow: 0px 4px 10px #0000001a;
+  line-height: 1.5rem;
 }
 
 .cardHistory article {
@@ -159,7 +160,7 @@ h1, h3 {
   background-color: #E8E6EE;
   border-left: 6px solid #922F28;
   padding: 15px;
-  margin: 15px 25px 15px 0;
+  margin: 2rem 2rem 2rem 0;
   border-radius: 6px;
 }
 
@@ -190,8 +191,8 @@ footer {
   margin-top: 40px;
 }
 
-.crap{
-  float:right;
+.crap {
+  float: right;
   width: 280px;
   background-color: #E8E6EE;
   border-left: 6px solid #031A4D;
@@ -200,7 +201,7 @@ footer {
   border-radius: 6px;
 }
 
-.crap h3{
+.crap h3 {
   background-color: #031A4D;
   color: #E8E6EE;
   padding: 6px;
@@ -209,8 +210,12 @@ footer {
   border-radius: 4px;
 }
 
-.crap ul {
-  margin-left: 20px;
+#crap_answer {
+  display: none;
+}
+
+#crap_trigger:hover #crap_answer {
+  display: block;
 }
 
 .left-text{
@@ -258,8 +263,9 @@ footer {
 }
 
 /*Pixel*/
-#pixelImages{
+#pixelImages > img{
   max-width: 500px;
+  width: 100%;
   height: auto;
 }
 
@@ -320,7 +326,8 @@ footer {
     }
 
     #left, #left_arrow,
-    #right, #right_arrow {
-        flex-direction: column;
+    #right, #right_arrow, 
+    #arrows {
+        display: none !important;
     }
 }

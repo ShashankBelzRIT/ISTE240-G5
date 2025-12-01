@@ -6,7 +6,7 @@
     <main>
         <h1>Pixel</h1>
         <div class="content">
-        <section id="pixelImages">
+        <section class="pixelImages">
             <img src="assets/images/pixel/AllSides.png" alt="Layout of AllSides 'Balanced News & Perspectives' page.">
             <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
         </section>
@@ -21,11 +21,11 @@
 
             <section class="crap">
                 <h3>CRAP Principle</h3>
-                <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
+                <p>In AllSides, which of the following is not a CRAP principle excellently demonstrated by that site?</p>
                 <ul>
-                    <li>In hac habitasse</li>
-                    <li>Platea dictumst</li>
-                    <li>Proin eget odio</li>
+                    <li>Repetition</li>
+                    <li>Alignment</li>
+                    <li>Contrast</li>
                 </ul>
             </section>
 

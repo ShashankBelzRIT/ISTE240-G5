@@ -17,7 +17,45 @@
                 and proximity to group-related information.
             </p>
 
-            <section class="interactive-element">
+            <section class="interactive-element" aria-labelledby="poll-title">
+                <h3 id="poll-title">Quick Poll: Which CRAP principle is most important?</h3>
+                <p>Pick one and see the results update instantly.</p>
+
+                <form id="crapPoll">
+                    <label>
+                        <input type="radio" name="poll" value="contrast">
+                        Contrast
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="poll" value="repetition">
+                        Repetition
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="poll" value="alignment">
+                        Alignment
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="poll" value="proximity">
+                        Proximity
+                    </label><br><br>
+
+                        <button type="button" id="voteBtn">Submit Vote</button>
+                    </form>
+
+                    <p id="pollMessage" role="status" aria-live="polite"></p>
+
+                    <ul id="pollResults" hidden>
+                        <li>Contrast: <span id="contrastCount">0</span></li>
+                        <li>Repetition: <span id="repetitionCount">0</span></li>
+                        <li>Alignment: <span id="alignmentCount">0</span></li>
+                        <li>Proximity: <span id="proximityCount">0</span></li>
+                    </ul>
+                </section>
+            
+            <!-- <section class="interactive-element">
                 <h3>Interactive Element</h3>
                 <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
                 <ul>
@@ -25,7 +63,7 @@
                     <li>Platea dictumst</li>
                     <li>Proin eget odio</li>
                 </ul>
-            </section>
+            </section> -->
 
             <p>
                 Digital news networks have a stronger grasp on 

@@ -15,7 +15,27 @@
         it’s a moral and design imperative that benefits all users.
       </p>
 
-      <section class="interactive-element">
+      
+      
+      <section class="interactive-element" aria-labelledby="accessibility-tools">
+        <h3 id="accessibility-tools">Accessibility Tools</h3>
+          <p>Use the buttons below to customize the page for better readability.</p>
+
+          <div class="a11y-controls">
+            <button id="textToggleBtn" aria-pressed="false">
+              Toggle Large Text
+            </button>
+
+            <button id="contrastToggleBtn" aria-pressed="false">
+              Toggle High Contrast
+            </button>
+
+            <button id="fontToggleBtn" aria-pressed="false">
+              Toggle Dyslexia-Friendly Font
+            </button>
+          </div>
+      </section>
+      <!-- <section class="interactive-element">
         <h3>Interactive Element</h3>
         <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
         <ul>
@@ -23,7 +43,7 @@
           <li>Platea dictumst</li>
           <li>Proin eget odio</li>
         </ul>
-      </section>
+      </section> -->
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et urna id ex aliquam faucibus.

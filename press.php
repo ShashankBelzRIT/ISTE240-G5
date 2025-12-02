@@ -22,19 +22,20 @@
                 <h3>CRAP Principle</h3>
                 <p>Which CRAP principle is the most prominent in press media?</p>
                 <br>
-                <div id="crap_trigger">
                     <ul id="crapList">
                         <li>Proximity</li>
                         <li>Alignment</li>
                         <li>Contrast</li>
                     </ul>
-                    <p id="crap_answer">Hover over me to see!<br>
+                    <button id="crap_trigger">Click me to see!</button> <br>
+                    <p id="crap_answer">
                         Contrast is arguably the correct answer, due to the black and white palletes
                         of newspapers, but others such as alignment and proximity are also good answers 
                         as well! 
                     </p>
-                </div>
             </section>
+
+            <section class="spacer"></section>
 
             <img src="assets/images/press/badCrap.jpg" alt="The Virginian Post press image">
             <h2>Bad Crap</h2>

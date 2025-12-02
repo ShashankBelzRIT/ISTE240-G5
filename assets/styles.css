@@ -163,7 +163,11 @@ main {
   align-items: center;
 }
 
-h1, h3 {
+.spacer{
+  padding: 30px;
+}
+
+h1, h3, h2 {
   text-align: center;
   margin-bottom: 20px;
 }

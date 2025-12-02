@@ -34,7 +34,7 @@
                             
     <article class="cardHistory">
       <h2>Print</h2>
-      <img src="assets/images/history/printingPress.png" alt="Gutenberg using his printing press.">
+      <img id="historyImage" src="assets/images/history/printingPress.png" alt="Gutenberg using his printing press.">
       <p>
         Print news, while largely accessible and typically formatted with excellence, had various
         faults that were limiting, could be improved, or simply were failed to be met. Fees for the
@@ -60,7 +60,7 @@
     </article>
     <article class="cardHistory">
       <h2>Pixel</h2>
-      <img src="assets/images/history/pixelNews.png" alt="Three phones displaying news sites on each screen.">
+      <img id="historyImage" src="assets/images/history/pixelNews.png" alt="Three phones displaying news sites on each screen.">
       <p>
         In the 1900s, as the world wide web advanced enough to have text and images together on
         the same webpage, websites dedicated to the news began to emerge. Nando was the first of

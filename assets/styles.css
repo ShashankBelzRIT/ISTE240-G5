@@ -10,7 +10,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color: #E8E6EE;
   color: #222;
 }
@@ -25,10 +25,6 @@ header {
   background-color: #f2f0f6;
   border-bottom: 1px solid #ddd;
   padding: 10px 20px;
-}
-
-h1{
-  margin: 5px auto;
 }
 
 nav {
@@ -303,17 +299,17 @@ footer {
   padding: 20px;
   text-align: justify;
 }
-.cardHistory > img {
+/* .cardHistory > img {
   display:inline-block;
   max-width: fit-content;
   width: 100%;
   max-height: fit-content;
   height: auto;
   margin: 0 auto;
-}
+} */
 
 /*Press*/
-#pressImage > img{
+#pressImage > img, #historyImage > img{
   max-height: 300px;
   height: auto;
 }

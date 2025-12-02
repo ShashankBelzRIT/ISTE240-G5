@@ -37,7 +37,9 @@
 
             <br>
             
-            <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
+            <section class="pixelImages">
+                <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
+            </section>
             <h2>Bad Crap</h2>
             <p>
                 The New York Times follows a more original newspaper format, which many readers flocked to once newspapers began to

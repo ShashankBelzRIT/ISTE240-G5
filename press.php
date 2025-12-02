@@ -7,7 +7,7 @@
     <main>
         <h1>Press</h1>
             <div class = "content">
-            <img src="assets/images/press/goodCrap.jpg" alt="The Guardian press image">
+            <img id="pressImage" src="assets/images/press/goodCrap.jpg" alt="The Guardian press image">
             <h2>Good Crap</h2>
             <p>
                 This example of an old Guardian newspaper shows a strategic design in press layout. 
@@ -37,7 +37,7 @@
 
             <section class="spacer"></section>
 
-            <img src="assets/images/press/badCrap.jpg" alt="The Virginian Post press image">
+            <img id="pressImage" src="assets/images/press/badCrap.jpg" alt="The Virginian Post press image">
             <h2>Bad Crap</h2>
             <p>
                 This article from the Virginian Post is one of our more lacking examples of press 

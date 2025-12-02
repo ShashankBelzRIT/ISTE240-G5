@@ -17,7 +17,7 @@ html, body {
 
 #logo {
   height: 50px;
-  width: 50px;
+  width: auto;
 }
 
 /* Header */
@@ -183,21 +183,6 @@ h1, h3, h2 {
   line-height: 1.5rem;
 }
 
-.cardHistory {
-  border: 2px black;
-  max-width: 400px;
-  padding: 20px;
-  text-align: justify;
-}
-.cardHistory > img {
-  display:inline-block;
-  max-width: fit-content;
-  width: 100%;
-  max-height: fit-content;
-  height: auto;
-  margin: 0 auto;
-}
-
 /*floats interactive element to the left*/
 .interactive-element {
   float: left;
@@ -309,6 +294,28 @@ footer {
     justify-content: center;
     align-items: center;
     height: 300px;
+}
+
+/*History*/
+.cardHistory {
+  border: 2px black;
+  max-width: 400px;
+  padding: 20px;
+  text-align: justify;
+}
+.cardHistory > img {
+  display:inline-block;
+  max-width: fit-content;
+  width: 100%;
+  max-height: fit-content;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*Press*/
+#pressImage > img{
+  max-height: 300px;
+  height: auto;
 }
 
 /*Pixel*/

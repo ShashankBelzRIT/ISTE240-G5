@@ -165,7 +165,7 @@ main {
 
 h1, h3, h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .content {
@@ -215,6 +215,7 @@ footer {
   background-color: #f2f0f6;
   border-top: 1px solid #ddd;
   margin-top: 40px;
+  width: 100%
 }
 
 .crap {
@@ -293,12 +294,11 @@ footer {
 }
 
 /*History*/
-.cardHistory {
+/* .cardHistory {
   border: 2px black;
-  max-width: 400px;
   padding: 20px;
   text-align: justify;
-}
+} */
 /* .cardHistory > img {
   display:inline-block;
   max-width: fit-content;
@@ -309,9 +309,11 @@ footer {
 } */
 
 /*Press*/
-#pressImage > img, #historyImage > img{
-  max-height: 300px;
+#whyImage, #pressImage, #historyImage{
+  max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Pixel*/
@@ -322,13 +324,6 @@ footer {
   max-height: fit-content;
   height: auto;
   margin: 0 auto;
-}
-
-/*Why*/
-#whyImage{
-  width: 200px;
-  height: auto;
-  width: 100%;
 }
 
 /*Credibility*/

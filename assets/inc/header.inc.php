@@ -9,7 +9,7 @@
 <body>
   <header>
     <nav class="navbar">
-      <a href="index.php"><img id=logo src="assets/images/logo.png" alt="Logo" class="logo"></a>
+      <a href="index.php"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>
       <button id="hamburgerBtn">☰</button>
       
       <ul class="nav-menu">

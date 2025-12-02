@@ -227,6 +227,7 @@ function toggleNavigation() {
     navbar.classList.toggle('shown');
 }
 
+//show crap answer on click
 function toggleCrapAnswer() {
   const hiddenContent = document.getElementById('crap_answer');
   if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {

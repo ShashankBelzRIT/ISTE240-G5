@@ -39,6 +39,5 @@
 
           <li><a href="accessibility.php">Accessibility</a></li>
         </ul>
-      <button class="settings">Settings</button>
     </nav>
   </header>

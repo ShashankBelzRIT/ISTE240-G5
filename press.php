@@ -7,36 +7,45 @@
     <main>
         <h1>Press</h1>
             <div class = "content">
+            <img src="assets/images/press/goodCrap.jpg" alt="The Guardian press image">
+            <h2>Good Crap</h2>
             <p>
-                Newspapers have been a large industry that span over 4 centuries. As you would guess, newspapers are made out
-                of paper, shocker, I know. Over those 4 centuries, the industry has depleted a large amount of paper and, in
-                turn, trees as a result of this industry. In 2006, newspapers generated 5.25 million tons more waste than in
-                1960. The manufacturing process itself consumes vast quantities of water and energy and relies on chemicals and
-                inks that can pollute air and water sources. Overall, the print media industry places a heavy strain on natural
-                resources and ecosystems, making its environmental footprint difficult to ignore.
+                This example of an old Guardian newspaper shows a strategic design in press layout. 
+                The headline image is in the center, and its relative text resides wrapped around it. 
+                This follows both the alignment and proximity parts of the CRAP principles. The 
+                sidebars within the text and to the side of it allow organization of information 
+                flow, and their difference in color allows the reader to differentiate them from the
+                 rest of the content. This utilizes the contrast CRAP principle as well.
             </p>
 
             <section class="crap">
                 <h3>CRAP Principle</h3>
-                <p>In AllSides, which of the following is not a CRAP principle excellently 
-                    demonstrated by that site?</p>
+                <p>Which CRAP principle is the most prominent in press media?</p>
                 <br>
                 <div id="crap_trigger">
                     <ul id="crapList">
-                        <li>Repetition</li>
+                        <li>Proximity</li>
                         <li>Alignment</li>
                         <li>Contrast</li>
                     </ul>
                     <p id="crap_answer">Hover over me to see!<br>
-                        Repetition! AllSides utilizied good repeitiion to ensure the user was seeing a page 
-                        with organized and coherant information. 
+                        Contrast is arguably the correct answer, due to the black and white palletes
+                        of newspapers, but others such as alignment and proximity are also good answers 
+                        as well! 
                     </p>
                 </div>
             </section>
 
-            <p> Print media’s rise in accessibility began with the introduction of braille newspapers, which allowed the blind to
-                read physical newspapers without them being read to them. This raised empowerment amongst the blind community as
-                they were allowed more autonomy and independence from a society that declared them dependent.
+            <img src="assets/images/press/badCrap.jpg" alt="The Virginian Post press image">
+            <h2>Bad Crap</h2>
+            <p>
+                This article from the Virginian Post is one of our more lacking examples of press 
+                CRAP principles. To start, the text is very spaced out and is positioned strangely
+                 throughout the page. This makes it extremely difficult for the reader to gauge where
+                  they are on the page and what information relates to others on the page. This violates 
+                  the proximity, alignment, and repetition of the CRAP principles. The page is aligned 
+                  in columns, but some are much thinner than others, further making it even more difficult 
+                  to read coherently.
             </p>
         </div>
     </main>

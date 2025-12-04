@@ -33,9 +33,10 @@ h1{
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
 
 nav ul {
@@ -121,7 +122,7 @@ nav a {
     cursor: pointer;
 }
 
-.protanopia {
+/* .protanopia {
     filter: url("#protanopia");
 }
 
@@ -138,20 +139,15 @@ nav a {
 }
 
 .contrast {
-    filter: contrast(60%);
+    filter: contrast(60%); */
 }
 
 #hamburgerBtn {
-    position: absolute;
-    z-index: 20;
-    top: 10px;
-    border: 0;
-    padding: 0;
-    width: 30px;
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
     cursor: pointer;
-    right: -50px;
-    transition: all 0.5s;
-    background-color: #ceceda;
 }
 
 .settings {
@@ -163,7 +159,7 @@ nav a {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     #hamburgerBtn {
         display: block;
         right: 10px;
@@ -215,7 +211,7 @@ nav a {
     #right, #right_arrow {
         flex-direction: column;
     }
-}
+} */
 
 /* Main content */
 main {
@@ -452,9 +448,18 @@ body.dyslexia-font {
 
 
 @media (max-width: 768px) {
+
+    nav {
+        justify-content: center;
+    }
+
     #hamburgerBtn {
         display: block;
-        right: 10px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        transform: translateY(-50%);
+  
     }
 
     .nav-menu {

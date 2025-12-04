@@ -1,5 +1,5 @@
 /* From Press to Pixel CSS */
-
+/*THIS IS A TEST FOR THE REPO*/
 
 * {
   margin: 0;
@@ -266,7 +266,7 @@ footer {
     position: absolute;
     background-color: transparent;
     border-color: transparent;
-    bottom: 300px;
+    bottom: 250px;
 }
 
 #left_arrow, #right_arrow{

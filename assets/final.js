@@ -57,42 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
   timerInterval = setInterval(auto, 4500);
 });
 
-// var img_index = 0;
-// function right(){
-//     img_index++;
-//     if (img_index > image_sources.length){
-//         img_index = 0;
-//     }
-
-//     const imgElement = document.getElementById("image");
-//     // console.log(image_sources[img_index]);
-//     imgElement.src = image_sources[img_index];
-// }
-
-// function left(){
-//     img_index--;
-
-//     if (img_index < 0){
-//         img_index = image_sources.length - 1;
-//     }
-
-//     const imgElement = document.getElementById("image");
-//     imgElement.src = image_sources[img_index];
-// }
-
-// let timer = 0;
-// let timerInterval;
-
-// function auto(){
-//     right();
-// }
-
-// document.addEventListener("DOMContentLoaded", () => {setInterval
-//     timerInterval = setInterval(auto, 4500);
-// });
-
-//Accessibility Toggles
-
 
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -216,12 +180,12 @@ hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-const navbar = document.getElementById('hamburger');
+// const navbar = document.getElementById('hamburger');
 if (navbar) {
     navbar.addEventListener('click', toggleNavigation);
 }
 function toggleNavigation() {
-    const menu = document.getElementsByClassName('navigation')[0];
+    // const menu = document.getElementsByClassName('navigation')[0];
     if (!menu) {
         return;
     }

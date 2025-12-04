@@ -75,9 +75,7 @@
                 confusing and less beneficial for all parties. 
             </p>
         <section class="whyImages">
-            <img id="whyImage" src="assets/images/why/newsApps.jpg" alt="image1">
             <img id="whyImage" src="assets/images/why/newspaper.jpg" alt="image1">
-            <img id="whyImage" src="assets/images/why/stack.jpg" alt="image1">
         </section>
         </div>
     </main>

@@ -308,9 +308,8 @@ footer {
   margin: 0 auto;
 } */
 
-/*Press*/
+/*Images*/
 #whyImage, #pressImage, #historyImage{
-  left: 100px;
   width: 200px;
   max-width: 100%;
   height: auto;

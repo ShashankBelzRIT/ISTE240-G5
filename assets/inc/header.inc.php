@@ -9,7 +9,7 @@
 <body>
   <header>
     <nav class="navbar">
-      <a href="home.php"><img id=logo src="assets/images/logo.png" alt="Logo" class="logo"></a>
+      <a href="index.php"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>
       <button id="hamburgerBtn">☰</button>
       
       <ul class="nav-menu">
@@ -39,6 +39,5 @@
 
           <li><a href="accessibility.php">Accessibility</a></li>
         </ul>
-      <button class="settings">Settings</button>
     </nav>
   </header>

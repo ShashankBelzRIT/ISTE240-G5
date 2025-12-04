@@ -10,14 +10,14 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color: #E8E6EE;
   color: #222;
 }
 
 #logo {
   height: 50px;
-  width: 50px;
+  width: auto;
 }
 
 /* Header */
@@ -25,10 +25,6 @@ header {
   background-color: #f2f0f6;
   border-bottom: 1px solid #ddd;
   padding: 10px 20px;
-}
-
-h1{
-  margin: 5px auto;
 }
 
 nav {
@@ -222,9 +218,13 @@ main {
   align-items: center;
 }
 
-h1, h3 {
+.spacer{
+  padding: 30px;
+}
+
+h1, h3, h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .content {
@@ -236,21 +236,6 @@ h1, h3 {
   border-radius: 10px;
   box-shadow: 0px 4px 10px #0000001a;
   line-height: 1.5rem;
-}
-
-.cardHistory {
-  border: 2px black;
-  max-width: 400px;
-  padding: 20px;
-  text-align: justify;
-}
-.cardHistory > img {
-  display:inline-block;
-  max-width: fit-content;
-  width: 100%;
-  max-height: fit-content;
-  height: auto;
-  margin: 0 auto;
 }
 
 /*floats interactive element to the left*/
@@ -289,6 +274,7 @@ footer {
   background-color: #f2f0f6;
   border-top: 1px solid #ddd;
   margin-top: 40px;
+  width: 100%
 }
 
 .crap {
@@ -316,6 +302,10 @@ footer {
 
 #crap_trigger:hover #crap_answer {
   display: block;
+}
+
+#crapList{
+  list-style: none;
 }
 
 .left-text{
@@ -362,6 +352,30 @@ footer {
     height: 300px;
 }
 
+/*History*/
+/* .cardHistory {
+  border: 2px black;
+  padding: 20px;
+  text-align: justify;
+} */
+/* .cardHistory > img {
+  display:inline-block;
+  max-width: fit-content;
+  width: 100%;
+  max-height: fit-content;
+  height: auto;
+  margin: 0 auto;
+} */
+
+/*Images*/
+#whyImage, #pressImage, #historyImage{
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /*Pixel*/
 .pixelImages > img{
   display: inline-block;
@@ -370,13 +384,6 @@ footer {
   max-height: fit-content;
   height: auto;
   margin: 0 auto;
-}
-
-/*Why*/
-#whyImage{
-  width: 200px;
-  height: auto;
-  width: 100%;
 }
 
 /*Credibility*/
@@ -424,6 +431,9 @@ body.dyslexia-font {
   font-family: "Arial", "Verdana", sans-serif;
   letter-spacing: .05em;
 }
+
+
+
 
 /*Poll interactive*/
 .interactive-element {
@@ -509,4 +519,4 @@ body.dyslexia-font {
     #arrows {
         display: none !important;
     }
-}
+  }

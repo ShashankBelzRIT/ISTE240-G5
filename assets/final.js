@@ -57,7 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
   timerInterval = setInterval(auto, 4500);
 });
 
-
 document.addEventListener("DOMContentLoaded", function() {
 
   const textBtn = document.getElementById('textToggleBtn');
@@ -193,15 +192,13 @@ function toggleNavigation() {
     navbar.classList.toggle('shown');
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const revealButton = document.getElementById('crap_trigger');
-    const hiddenContent = document.getElementById('crap_answer');
+//show crap answer on click
+function toggleCrapAnswer() {
+  const hiddenContent = document.getElementById('crap_answer');
+  if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {
+    hiddenContent.style.display = 'block';
+  } else {
+    hiddenContent.style.display = 'none';
+  }
+}
 
-    revealButton.addEventListener('click', function() {
-        if (hiddenContent.style.display === 'none') {
-            hiddenContent.style.display = 'block';
-        } else {
-            hiddenContent.style.display = 'none';
-        }
-    });
-});

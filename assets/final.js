@@ -179,7 +179,7 @@ hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-// const navbar = document.getElementById('hamburger');
+const navbar = document.getElementById('hamburger');
 if (navbar) {
     navbar.addEventListener('click', toggleNavigation);
 }

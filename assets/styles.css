@@ -232,7 +232,7 @@ h1, h3, h2 {
   background-color: #ffffff;
   padding: 20px;
   font-size: 16px;
-  text-align: justify;
+  text-align: center;
   border-radius: 10px;
   box-shadow: 0px 4px 10px #0000001a;
   line-height: 1.5rem;
@@ -356,7 +356,6 @@ footer {
 /* .cardHistory {
   border: 2px black;
   padding: 20px;
-  text-align: justify;
 } */
 /* .cardHistory > img {
   display:inline-block;
@@ -373,7 +372,7 @@ footer {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  padding: 5px;
 }
 
 /*Pixel*/
@@ -456,6 +455,13 @@ body.dyslexia-font {
     font-weight: bold;
 }
 
+@media (max-width: 1000px) {
+  #left, #left_arrow,
+    #right, #right_arrow, 
+    #arrows {
+        display: none;
+    }
+}
 
 @media (max-width: 768px) {
 
@@ -475,7 +481,7 @@ body.dyslexia-font {
     .nav-menu {
         display: none;
         flex-direction: column;
-        background-color: #adadad;
+        background-color: #f2f0f6;
         width: 100%;
         padding: 10px 0;
         position: absolute;

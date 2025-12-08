@@ -24,7 +24,7 @@ html, body {
 header {
   background-color: #f2f0f6;
   border-bottom: 1px solid #ddd;
-  padding: 10px 20px;
+  padding: 10px;
 }
 
 nav {
@@ -38,12 +38,22 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 15px;
+  padding: 10px 15px;
 }
 
 nav a {
   text-decoration: none;
   color: #333;
+}
+
+.nav-menu a {
+  font-size: 18px;
+  padding: 12px 15px;
+  line-height: 1.6;
+}
+
+.nav-menu li {
+  margin-right: 15px;
 }
 
 .nav-menu a:hover {
@@ -81,10 +91,10 @@ nav a {
   color: #000;
   text-decoration: none;
   white-space: nowrap; 
-
+  font-size: 18px;
 }
 
-.dropdownMenu li:hover {
+.dropdownMenu li a:hover {
   background-color: #cecada;
 }
 
@@ -349,30 +359,18 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    width: 600px;
+    height: 500px;
 }
 
-/*History*/
-/* .cardHistory {
-  border: 2px black;
-  padding: 20px;
-} */
-/* .cardHistory > img {
-  display:inline-block;
-  max-width: fit-content;
-  width: 100%;
-  max-height: fit-content;
-  height: auto;
-  margin: 0 auto;
-} */
-
 /*Images*/
-#whyImage, #pressImage, #historyImage{
+#pressImage, #historyImage{
   width: 200px;
   max-width: 100%;
   height: auto;
   display: block;
   padding: 5px;
+  justify-content: center;
 }
 
 /*Pixel*/

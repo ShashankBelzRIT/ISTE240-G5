@@ -65,6 +65,8 @@
                 </ul>
             </section> -->
 
+            <br>
+
             <p>
                 Digital news networks have a stronger grasp on 
                 these principles than print media, but there are still arguments for each medium. To learn 

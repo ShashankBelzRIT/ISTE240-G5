@@ -116,14 +116,21 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     function updateDisplay() {
-        contrastCount.textContent = counts.contrast;
-        repetitionCount.textContent = counts.repetition;
-        alignmentCount.textContent = counts.alignment;
-        proximityCount.textContent = counts.proximity;
 
-        if (counts.contrast + counts.repetition + counts.alignment + counts.proximity > 0) {
-            results.hidden = false;
+      if (!contrastCount || !repetitionCount || !alignmentCount || !proximityCount) {
+        return;
+      }
+
+      contrastCount.textContent = counts.contrast;
+      repetitionCount.textContent = counts.repetition;
+      alignmentCount.textContent = counts.alignment;
+      proximityCount.textContent = counts.proximity;
+
+      if (counts.contrast + counts.repetition + counts.alignment + counts.proximity > 0) {
+        if (results) {
+          results.hidden = false;
         }
+      }
     }
 
     updateDisplay();
@@ -170,35 +177,39 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//Hamburger
+    //Hamburger
 
-const hamburger = document.getElementById('hamburgerBtn');
-const navMenu = document.querySelector('.nav-menu');
+    const hamburger = document.getElementById('hamburgerBtn');
+    const navMenu = document.querySelector('.nav-menu');
 
-hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-});
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
 
-// const navbar = document.getElementById('hamburger');
-if (navbar) {
-    navbar.addEventListener('click', toggleNavigation);
-}
-function toggleNavigation() {
-    // const menu = document.getElementsByClassName('navigation')[0];
-    if (!menu) {
+    function toggleNavigation() {
+      const menu = document.getElementsByClassName('navigation')[0];
+      const navbar = document.getElementById('hamburger');
+
+      if (!menu || !navbar) {
         return;
-    }
-    menu.classList.toggle('shown');
-    navbar.classList.toggle('shown');
-}
+      }
 
-//show crap answer on click
-function toggleCrapAnswer() {
-  const hiddenContent = document.getElementById('crap_answer');
-  if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {
-    hiddenContent.style.display = 'block';
-  } else {
-    hiddenContent.style.display = 'none';
-  }
-}
+      menu.classList.toggle('shown');
+      navbar.classList.toggle('shown');
+    }
+
+    //show crap answer on click
+    document.addEventListener("DOMContentLoaded", () => {
+      const btn = document.getElementById("crap_trigger");
+      const answer = document.getElementById("crap_answer");
+
+      if (btn && answer) {
+        btn.addEventListener("click", () => {
+          answer.style.display = 
+            (answer.style.display === "none" || answer.style.display === "") 
+            ? "block" 
+            : "none";
+        });
+      }
+    });
 

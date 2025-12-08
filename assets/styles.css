@@ -1,5 +1,5 @@
 /* From Press to Pixel CSS */
-
+/*THIS IS A TEST FOR THE REPO*/
 
 * {
   margin: 0;
@@ -325,7 +325,7 @@ footer {
     position: absolute;
     background-color: transparent;
     border-color: transparent;
-    bottom: 300px;
+    bottom: 250px;
 }
 
 #left_arrow, #right_arrow{
@@ -475,7 +475,7 @@ body.dyslexia-font {
     .nav-menu {
         display: none;
         flex-direction: column;
-        background-color: transparent;
+        background-color: #adadad;
         width: 100%;
         padding: 10px 0;
         position: absolute;
@@ -517,6 +517,6 @@ body.dyslexia-font {
     #left, #left_arrow,
     #right, #right_arrow, 
     #arrows {
-        display: none !important;
+        display: none;
     }
   }

@@ -1,10 +1,37 @@
 /* From Press to Pixel CSS */
-/*THIS IS A TEST FOR THE REPO*/
 
+/* Main content */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+main {
+  background-color: #E8E6EE;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spacer{
+  padding: 30px;
+}
+
+h1, h3, h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.content {
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px #0000001a;
+  line-height: 1.5rem;
 }
 
 html, body {
@@ -19,6 +46,15 @@ html, body {
   height: 50px;
   width: auto;
 }
+
+
+
+
+
+
+
+
+
 
 /* Header */
 header {
@@ -89,8 +125,7 @@ nav a {
   display: block;
   padding: 10px 16px;
   color: #000;
-  text-decoration: none;
-  white-space: nowrap; 
+  text-decoration: none; 
   font-size: 18px;
 }
 
@@ -98,6 +133,24 @@ nav a {
   background-color: #cecada;
 }
 
+#hamburgerBtn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*Accessibility Interactives*/
 .accessibility-interactive {
     max-width: 700px;
     margin: auto;
@@ -148,257 +201,7 @@ nav a {
     filter: contrast(60%); */
 
 
-#hamburgerBtn {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 28px;
-    cursor: pointer;
-}
-
-.settings {
-  background-color: #4D544B;
-  color: white;
-  border: none;
-  padding: 8px 14px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* @media (max-width: 768px) {
-    #hamburgerBtn {
-        display: block;
-        right: 10px;
-    }
-
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        background-color: transparent;
-        width: 100%;
-        padding: 10px 0;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        border-top: 1px solid #ccc;
-    }
-
-    .nav-menu.active {
-        display: flex;
-    }
-
-    .nav-menu > li {
-        width: 100%;
-    }
-
-    .dropdown:hover .dropdownMenu {
-        display: none;
-    }
-
-    .dropdownMenu {
-        position: static;
-        display: none;
-        background-color: transparent;
-    }
-
-    .dropdown:hover .dropdownMenu {
-      display: none;
-  }
-
-    .dropdown.active .dropdownMenu {
-        display: block;
-    }
-
-    #carousel {
-        flex-direction: column;
-    }
-
-    #left, #left_arrow,
-    #right, #right_arrow {
-        flex-direction: column;
-    }
-} */
-
-/* Main content */
-main {
-  background-color: #E8E6EE;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.spacer{
-  padding: 30px;
-}
-
-h1, h3, h2 {
-  text-align: center;
-  margin: 20px;
-}
-
-.content {
-  max-width: 900px;
-  background-color: #ffffff;
-  padding: 20px;
-  font-size: 16px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px #0000001a;
-  line-height: 1.5rem;
-}
-
-/*floats interactive element to the left*/
-.interactive-element {
-  float: left;
-  width: 280px;
-  background-color: #E8E6EE;
-  border-left: 6px solid #922F28;
-  padding: 15px;
-  margin: 2rem 2rem 2rem 0;
-  border-radius: 6px;
-}
-
-.interactive-element h3 {
-  background-color: #922F28;
-  color:  #E8E6EE;
-  padding: 6px;
-  margin-bottom: 10px;
-  text-align: center;
-  border-radius: 4px;
-}
-
-.interactive-element ul {
-  margin-left: 20px;
-}
-
-/*clears float for later paragraphs */
-.clear {
-  clear: both;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 12px;
-  background-color: #f2f0f6;
-  border-top: 1px solid #ddd;
-  margin-top: 40px;
-  width: 100%
-}
-
-.crap {
-  float: right;
-  width: 280px;
-  background-color: #E8E6EE;
-  border-left: 6px solid #031A4D;
-  padding: 15px;
-  margin: 15px 25px 15px;
-  border-radius: 6px;
-}
-
-.crap h3 {
-  background-color: #031A4D;
-  color: #E8E6EE;
-  padding: 6px;
-  margin-bottom: 10px;
-  text-align: center;
-  border-radius: 4px;
-}
-
-#crap_answer {
-  display: none;
-}
-
-#crap_trigger:hover #crap_answer {
-  display: block;
-}
-
-#crapList{
-  list-style: none;
-}
-
-.left-text{
-  flex-wrap: wrap;
-}
-
-/*home page*/
-#image{
-    width: 100%;
-    width: 400px;
-    height: auto;
-    max-height: 100%;
-    margin: 0 auto;
-}
-
-#left, #right{
-    position: absolute;
-    background-color: transparent;
-    border-color: transparent;
-    bottom: 250px;
-}
-
-#left_arrow, #right_arrow{
-  width: 40px;
-  height: 30px;
-}
-
-#right{
-    right: 375px;
-}
-
-#left{
-  left: 375px;
-}
-
-#left_arrow:hover, #right_arrow:hover {
-    background-color: #adadad;
-}
-
-.carosel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    height: 500px;
-}
-
-/*Images*/
-#pressImage{
-  width: 200px;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  padding: 5px;
-  justify-content: center;
-}
-
-#historyImage{
-  width: 200px;
-  height: auto;
-  float: right;
-  margin: 0 15px 10px 0;
-  padding: 5px;
-}
-
-/*Pixel*/
-.pixelImages > img{
-  display: inline-block;
-  max-width: 400px;
-  width: 100%;
-  max-height: fit-content;
-  height: auto;
-  margin: 0 auto;
-}
-
-/*Credibility*/
-#credList li{
-  list-style-position: inside;
-  padding-left: 15px;
-}
-
-/*Accessibility interactive*/
-.a11y-controls {
+  .a11y-controls {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
@@ -440,6 +243,237 @@ body.dyslexia-font {
 
 
 
+
+
+
+
+
+
+
+
+/*Base Interactive element*/
+/*floats interactive element to the left*/
+.interactive-element {
+  float: left;
+  width: 280px;
+  background-color: #E8E6EE;
+  border-left: 6px solid #922F28;
+  padding: 15px;
+  margin: 2rem 2rem 2rem 0;
+  border-radius: 6px;
+}
+
+.interactive-element h3 {
+  background-color: #922F28;
+  color:  #E8E6EE;
+  padding: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.interactive-element ul {
+  margin-left: 20px;
+}
+
+
+
+
+/*clears float for later paragraphs */
+.clear {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 12px;
+  background-color: #f2f0f6;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  width: 100%
+}
+
+
+
+
+
+
+
+
+/*Crap interactive*/
+.crap {
+  float: right;
+  width: 280px;
+  background-color: #E8E6EE;
+  border-left: 6px solid #031A4D;
+  padding: 15px;
+  margin: 15px 25px 15px;
+  border-radius: 6px;
+}
+
+.crap h3 {
+  background-color: #031A4D;
+  color: #E8E6EE;
+  padding: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#crap_answer {
+  display: none;
+}
+
+#crap_trigger:hover #crap_answer {
+  display: block;
+}
+
+#crapList{
+  list-style: none;
+}
+
+.left-text{
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*home page*/
+#left, #right{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    bottom: 275px;
+}
+
+#left_arrow, #right_arrow{
+  width: 40px;
+  height: 30px;
+}
+
+#right{
+    right: 375px;
+}
+
+#left{
+  left: 375px;
+}
+
+#left_arrow:hover, #right_arrow:hover {
+    background-color: #adadad;
+}
+
+.carosel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.carosel img{
+  display: block;
+  object-fit: cover;
+  width: 400px;
+  height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Images*/
+#pressImage {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#historyImage{
+  width: 200px;
+  height: auto;
+  float: right;
+  margin-top: 0px, 10px, 10px, 0px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Pixel*/
+.pixelImages > img{
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+  max-height: fit-content;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+/*Credibility*/
+#credList li{
+  list-style-position: inside;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Poll interactive*/
 .interactive-element {
     border: 2px solid #444;
@@ -461,6 +495,15 @@ body.dyslexia-font {
     font-weight: bold;
 }
 
+
+
+
+
+
+
+
+
+/*Media queries*/
 @media (max-width: 1000px) {
   #left, #left_arrow,
     #right, #right_arrow, 

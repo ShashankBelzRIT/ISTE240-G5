@@ -28,6 +28,8 @@
             </p>
       </section>
 
+      <br>
+
       <p class="left-text">
         A website should not be a book; the information must be formatted in a way to 
         entice the reader. Having paragraph upon paragraph just bores the reader and 

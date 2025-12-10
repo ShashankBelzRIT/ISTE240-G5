@@ -56,6 +56,7 @@
           Print news providers began incorporating digital media to offer bonus
           and exclusive materials for subscribers.
         </p>
+        <div class="clear"></div>
 
         <h2>Pixel</h2>
         <img id="historyImage" src="assets/images/history/pixelNews.png" alt="Three phones displaying news sites on each screen.">
@@ -77,6 +78,7 @@
           - regardless of distance - by offering direct feedback or critiques on the
           article's content, and engaging with other commenters on the delivered
           information or their stances on it, ultimately raising engagement.</p>
+        <div class="clear"></div>
     </div>
   </main>
 

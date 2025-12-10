@@ -364,13 +364,21 @@ footer {
 }
 
 /*Images*/
-#pressImage, #historyImage{
+#pressImage{
   width: 200px;
   max-width: 100%;
   height: auto;
   display: block;
   padding: 5px;
   justify-content: center;
+}
+
+#historyImage{
+  width: 200px;
+  height: auto;
+  float: right;
+  margin: 0 15px 10px 0;
+  padding: 5px;
 }
 
 /*Pixel*/

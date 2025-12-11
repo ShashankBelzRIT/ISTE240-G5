@@ -93,9 +93,9 @@ nav a {
   line-height: 1.6;
 }
 
-/* .nav-menu li {
+.nav-menu li {
   margin-right: 15px;
-} */
+}
 
 .nav-menu a:hover {
   background-color: #cecada;
@@ -420,8 +420,7 @@ footer {
 
 
 /*Images*/
-#pressImage,
-#impactImage {
+#pressImage{
   width: 200px;
   height: auto;
   display: block;
@@ -429,7 +428,15 @@ footer {
   padding: 5px;
 }
 
-#historyImage {
+#impactImage{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+#historyImage{
   width: 200px;
   height: auto;
   float: right;
@@ -527,8 +534,52 @@ footer {
 
 @media (max-width: 768px) {
 
-  nav {
-    justify-content: center;
+    nav {
+        justify-content: center;
+    }
+
+    #hamburgerBtn {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        transform: translateY(-50%);
+  
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #031A4D;
+        width: 100%;
+        padding: 10px 0;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        background-color: #031A4D;
+    }
+
+    .nav-menu > li {
+        width: 100%;
+    }
+
+    .dropdown:hover .dropdownMenu {
+        display: none;
+    }
+
+    .dropdownMenu {
+        position: static;
+        display: none;
+        background-color: transparent;
+    }
+
+    .dropdown:hover .dropdownMenu {
+      display: none;
   }
 
   #hamburgerBtn {

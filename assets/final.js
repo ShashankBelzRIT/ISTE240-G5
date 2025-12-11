@@ -57,7 +57,16 @@ document.addEventListener("DOMContentLoaded", () => {
   timerInterval = setInterval(auto, 4500);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+
+
+
+
+
+
+
+
+//interactive element
+document.addEventListener("DOMContentLoaded", function() {
 
   const textBtn = document.getElementById('textToggleBtn');
   const contrastBtn = document.getElementById('contrastToggleBtn');
@@ -91,6 +100,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 });
+
+
+
+
+
 
 //poll
 document.addEventListener("DOMContentLoaded", function () {
@@ -175,6 +189,15 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
+
+
+
+
+
+
+
+
+
 
 
 //Hamburger

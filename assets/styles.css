@@ -90,9 +90,9 @@ nav a {
   line-height: 1.6;
 }
 
-/* .nav-menu li {
+.nav-menu li {
   margin-right: 15px;
-} */
+}
 
 .nav-menu a:hover {
   background-color: #cecada;
@@ -415,12 +415,20 @@ footer {
 
 
 /*Images*/
-#pressImage, #impactImage {
+#pressImage{
   width: 200px;
   height: auto;
   display: block;
   margin: 0 auto;
   padding: 5px;
+}
+
+#impactImage{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
 }
 
 #historyImage{
@@ -534,7 +542,7 @@ footer {
     .nav-menu {
         display: none;
         flex-direction: column;
-        background-color: #3b82f6;
+        background-color: #031A4D;
         width: 100%;
         padding: 10px 0;
         position: absolute;
@@ -545,7 +553,7 @@ footer {
 
     .nav-menu.active {
         display: flex;
-        background-color: #3b82f6;
+        background-color: #031A4D;
     }
 
     .nav-menu > li {

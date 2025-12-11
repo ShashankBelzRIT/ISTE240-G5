@@ -57,6 +57,15 @@ document.addEventListener("DOMContentLoaded", () => {
   timerInterval = setInterval(auto, 4500);
 });
 
+
+
+
+
+
+
+
+
+//interactive element
 document.addEventListener("DOMContentLoaded", function() {
 
   const textBtn = document.getElementById('textToggleBtn');
@@ -91,6 +100,11 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 });
+
+
+
+
+
 
 //poll
 document.addEventListener("DOMContentLoaded", function () {
@@ -177,7 +191,16 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-    //Hamburger
+
+
+
+
+
+
+
+
+
+//Hamburger
 
     const hamburger = document.getElementById('hamburgerBtn');
     const navMenu = document.querySelector('.nav-menu');

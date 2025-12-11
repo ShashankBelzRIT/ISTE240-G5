@@ -65,6 +65,8 @@
                 </ul>
             </section> -->
 
+            <br>
+
             <p>
                 Digital news networks have a stronger grasp on 
                 these principles than print media, but there are still arguments for each medium. To learn 
@@ -74,11 +76,9 @@
                 principles allow users to interact with media easily, and without them, news media would be more 
                 confusing and less beneficial for all parties. 
             </p>
-        <section class="whyImages">
-            <img id="whyImage" src="assets/images/why/newsApps.jpg" alt="image1">
+        <!-- <section class="whyImages">
             <img id="whyImage" src="assets/images/why/newspaper.jpg" alt="image1">
-            <img id="whyImage" src="assets/images/why/stack.jpg" alt="image1">
-        </section>
+        </section> -->
         </div>
     </main>
 

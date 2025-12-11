@@ -19,13 +19,16 @@
 
       <section class="crap">
         <h3>CRAP Principle</h3>
-        <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
-        <ul>
-          <li>In hac habitasse</li>
-          <li>Platea dictumst</li>
-          <li>Proin eget odio</li>
-        </ul>
+        <p>Why may the CRAP principles help students succeed in their education?</p>
+        <br>
+            <button id="crap_trigger">Click me to see!</button> <br>
+            <p id="crap_answer">
+                Studies show that using the CRAP principles in information designs allow 
+                readers to comprehend and process the information better! 
+            </p>
       </section>
+
+      <br>
 
       <p class="left-text">
         A website should not be a book; the information must be formatted in a way to 

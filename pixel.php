@@ -8,7 +8,6 @@
         <div class="content">
         <section class="pixelImages">
             <img src="assets/images/pixel/AllSides.png" alt="Layout of AllSides 'Balanced News & Perspectives' page.">
-            <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
         </section>
             <h2>Good Crap</h2>
             <p>
@@ -24,21 +23,23 @@
                 <p>In AllSides, which of the following is not a CRAP principle excellently 
                     demonstrated by that site?</p>
                 <br>
-                <div id="crap_trigger">
-                    <ul>
+                    <ul id="crapList">
                         <li>Repetition</li>
                         <li>Alignment</li>
                         <li>Contrast</li>
                     </ul>
-                    <p id="crap_answer">Hover over me to see!<br>
+                    <button id="crap_trigger">Click me to see!</button> <br>
+                    <p id="crap_answer">
                         Repetition! AllSides utilizied good repeitiion to ensure the user was seeing a page 
                         with organized and coherant information. 
                     </p>
-                </div>
             </section>
 
             <br>
             
+            <section class="pixelImages">
+                <img src="assets/images/pixel/NewYorkTimes.png" alt="Layout of The New York Times homepage.">
+            </section>
             <h2>Bad Crap</h2>
             <p>
                 The New York Times follows a more original newspaper format, which many readers flocked to once newspapers began to

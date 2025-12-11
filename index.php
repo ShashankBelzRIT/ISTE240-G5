@@ -18,10 +18,6 @@
                 </button>
             </section>
         </div>
-
-        
-        <br>
-        <br>
         
         <div class = "content">
             <p>Welcome to From Press to Pixel! If you are someone who wants to learn more about the differences 

@@ -88,9 +88,9 @@ nav a {
   line-height: 1.6;
 }
 
-.nav-menu li {
+/* .nav-menu li {
   margin-right: 15px;
-}
+} */
 
 .nav-menu a:hover {
   background-color: #cecada;
@@ -530,7 +530,7 @@ footer {
     .nav-menu {
         display: none;
         flex-direction: column;
-        background-color: #f2f0f6;
+        background-color: #3b82f6;
         width: 100%;
         padding: 10px 0;
         position: absolute;
@@ -541,6 +541,7 @@ footer {
 
     .nav-menu.active {
         display: flex;
+        background-color: #3b82f6;
     }
 
     .nav-menu > li {

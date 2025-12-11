@@ -3,11 +3,11 @@
 
 // Home Page Carosel 
 const image_sources = [
-    "assets/images/home/newspaper1.jpg",
-    "assets/images/home/newspaper2.jpg",
-    "assets/images/home/newspaper3.jpg",
-    "assets/images/home/newspaper4.jpg",
-    "assets/images/home/newspaper5.jpg"
+  "assets/images/home/newspaper1.jpg",
+  "assets/images/home/newspaper2.jpg",
+  "assets/images/home/newspaper3.jpg",
+  "assets/images/home/newspaper4.jpg",
+  "assets/images/home/newspaper5.jpg"
 ]
 
 //sources:
@@ -21,10 +21,10 @@ const image_sources = [
 let img_index = 0;
 let timerInterval;
 
-function right(){
+function right() {
   img_index++;
 
-  if (img_index >= image_sources.length){
+  if (img_index >= image_sources.length) {
     img_index = 0;
   }
 
@@ -35,10 +35,10 @@ function right(){
   }
 }
 
-function left(){
+function left() {
   img_index--;
 
-  if (img_index < 0){
+  if (img_index < 0) {
     img_index = image_sources.length - 1;
   }
 
@@ -49,7 +49,7 @@ function left(){
   }
 }
 
-function auto(){
+function auto() {
   right();
 }
 
@@ -109,84 +109,84 @@ document.addEventListener("DOMContentLoaded", function() {
 //poll
 document.addEventListener("DOMContentLoaded", function () {
 
-    const button = document.getElementById("voteBtn");
-    const message = document.getElementById("pollMessage");
-    const results = document.getElementById("pollResults");
+  const button = document.getElementById("voteBtn");
+  const message = document.getElementById("pollMessage");
+  const results = document.getElementById("pollResults");
 
-    const contrastCount = document.getElementById("contrastCount");
-    const repetitionCount = document.getElementById("repetitionCount");
-    const alignmentCount = document.getElementById("alignmentCount");
-    const proximityCount = document.getElementById("proximityCount");
+  const contrastCount = document.getElementById("contrastCount");
+  const repetitionCount = document.getElementById("repetitionCount");
+  const alignmentCount = document.getElementById("alignmentCount");
+  const proximityCount = document.getElementById("proximityCount");
 
-    // Check if this user already voted
-    let hasVoted = localStorage.getItem("hasVotedCrapPoll") === "true";
+  // Check if this user already voted
+  let hasVoted = localStorage.getItem("hasVotedCrapPoll") === "true";
 
-    // Load saved votes OR start at 0
-    let counts = JSON.parse(localStorage.getItem("crapPollVotes")) || {
-        contrast: 0,
-        repetition: 0,
-        alignment: 0,
-        proximity: 0
-    };
+  // Load saved votes OR start at 0
+  let counts = JSON.parse(localStorage.getItem("crapPollVotes")) || {
+    contrast: 0,
+    repetition: 0,
+    alignment: 0,
+    proximity: 0
+  };
 
-    function updateDisplay() {
+  function updateDisplay() {
 
-      if (!contrastCount || !repetitionCount || !alignmentCount || !proximityCount) {
-        return;
-      }
+    if (!contrastCount || !repetitionCount || !alignmentCount || !proximityCount) {
+      return;
+    }
 
-      contrastCount.textContent = counts.contrast;
-      repetitionCount.textContent = counts.repetition;
-      alignmentCount.textContent = counts.alignment;
-      proximityCount.textContent = counts.proximity;
+    contrastCount.textContent = counts.contrast;
+    repetitionCount.textContent = counts.repetition;
+    alignmentCount.textContent = counts.alignment;
+    proximityCount.textContent = counts.proximity;
 
-      if (counts.contrast + counts.repetition + counts.alignment + counts.proximity > 0) {
-        if (results) {
-          results.hidden = false;
-        }
+    if (counts.contrast + counts.repetition + counts.alignment + counts.proximity > 0) {
+      if (results) {
+        results.hidden = false;
       }
     }
+  }
+
+  updateDisplay();
+
+  // If user already voted, lock the poll
+  if (hasVoted) {
+    button.disabled = true;
+    message.textContent = "You already voted in this poll.";
+  }
+
+  button.addEventListener("click", function () {
+
+    if (hasVoted) {
+      message.textContent = "You already voted in this poll.";
+      return;
+    }
+
+    const selected = document.querySelector('input[name="poll"]:checked');
+
+    if (!selected) {
+      message.textContent = "Please choose an option before voting.";
+      return;
+    }
+
+    const value = selected.value;
+
+    // Increase vote count
+    counts[value]++;
+
+    // Save results
+    localStorage.setItem("crapPollVotes", JSON.stringify(counts));
+
+    // Mark user as voted (FOREVER)
+    localStorage.setItem("hasVotedCrapPoll", "true");
+    hasVoted = true;
 
     updateDisplay();
 
-    // If user already voted, lock the poll
-    if (hasVoted) {
-        button.disabled = true;
-        message.textContent = "You already voted in this poll.";
-    }
-
-    button.addEventListener("click", function () {
-
-        if (hasVoted) {
-            message.textContent = "You already voted in this poll.";
-            return;
-        }
-
-        const selected = document.querySelector('input[name="poll"]:checked');
-
-        if (!selected) {
-            message.textContent = "Please choose an option before voting.";
-            return;
-        }
-
-        const value = selected.value;
-
-        // Increase vote count
-        counts[value]++;
-
-        // Save results
-        localStorage.setItem("crapPollVotes", JSON.stringify(counts));
-
-        // Mark user as voted (FOREVER)
-        localStorage.setItem("hasVotedCrapPoll", "true");
-        hasVoted = true;
-
-        updateDisplay();
-
-        results.hidden = false;
-        message.textContent = "Thanks for voting! Your response has been saved.";
-        button.disabled = true;
-    });
+    results.hidden = false;
+    message.textContent = "Thanks for voting! Your response has been saved.";
+    button.disabled = true;
+  });
 
 });
 
@@ -202,37 +202,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //Hamburger
 
-    const hamburger = document.getElementById('hamburgerBtn');
-    const navMenu = document.querySelector('.nav-menu');
+const hamburger = document.getElementById('hamburgerBtn');
+const navMenu = document.querySelector('.nav-menu');
 
-    hamburger.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
+
+function toggleNavigation() {
+  const menu = document.getElementsByClassName('navigation')[0];
+  const navbar = document.getElementById('hamburger');
+
+  if (!menu || !navbar) {
+    return;
+  }
+
+  menu.classList.toggle('shown');
+  navbar.classList.toggle('shown');
+}
+
+//show crap answer on click
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("crap_trigger");
+  const answer = document.getElementById("crap_answer");
+
+  if (btn && answer) {
+    btn.addEventListener("click", () => {
+      answer.style.display =
+        (answer.style.display === "none" || answer.style.display === "")
+          ? "block"
+          : "none";
     });
-
-    function toggleNavigation() {
-      const menu = document.getElementsByClassName('navigation')[0];
-      const navbar = document.getElementById('hamburger');
-
-      if (!menu || !navbar) {
-        return;
-      }
-
-      menu.classList.toggle('shown');
-      navbar.classList.toggle('shown');
-    }
-
-    //show crap answer on click
-    document.addEventListener("DOMContentLoaded", () => {
-      const btn = document.getElementById("crap_trigger");
-      const answer = document.getElementById("crap_answer");
-
-      if (btn && answer) {
-        btn.addEventListener("click", () => {
-          answer.style.display = 
-            (answer.style.display === "none" || answer.style.display === "") 
-            ? "block" 
-            : "none";
-        });
-      }
-    });
+  }
+});
 

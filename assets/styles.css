@@ -15,11 +15,13 @@ main {
   align-items: center;
 }
 
-.spacer{
+.spacer {
   padding: 30px;
 }
 
-h1, h3, h2 {
+h1,
+h3,
+h2 {
   text-align: center;
   margin: 10px;
   padding: 7px;
@@ -36,10 +38,11 @@ h1, h3, h2 {
   line-height: 1.5rem;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #E8E6EE;
   color: #222;
 }
@@ -127,7 +130,7 @@ nav a {
   display: block;
   padding: 10px 16px;
   color: #000;
-  text-decoration: none; 
+  text-decoration: none;
   font-size: 18px;
 }
 
@@ -136,11 +139,11 @@ nav a {
 }
 
 #hamburgerBtn {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 28px;
-    cursor: pointer;
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
 }
 
 
@@ -154,33 +157,32 @@ nav a {
 
 /*Accessibility Interactives*/
 .accessibility-interactive {
-    max-width: 700px;
-    margin: auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
 .controls {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .demo-box {
-    padding: 20px;
-    border-radius: 8px;
-    border: 2px solid #333;
-    transition: filter 0.3s, opacity 0.3s;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #333;
+  transition: filter 0.3s, opacity 0.3s;
 }
 
 .demo-box button {
-    padding: 10px 16px;
-    border: none;
-    border-radius: 6px;
-    background: #3b82f6;
-    color: white;
-    cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
 }
 
 /* .protanopia {
@@ -203,7 +205,7 @@ nav a {
     filter: contrast(60%); */
 
 
-  .a11y-controls {
+.a11y-controls {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
@@ -215,7 +217,7 @@ nav a {
 }
 
 .a11y-controls button {
-  width:260px;
+  width: 260px;
   padding: .6rem 1rem;
   border-radius: .5rem;
   border: 2px solid #333;
@@ -267,7 +269,7 @@ body.dyslexia-font {
 
 .interactive-element h3 {
   background-color: #922F28;
-  color:  #E8E6EE;
+  color: #E8E6EE;
   padding: 6px;
   margin-bottom: 10px;
   text-align: center;
@@ -342,11 +344,11 @@ footer {
   display: block;
 }
 
-#crapList{
+#crapList {
   list-style: none;
 }
 
-.left-text{
+.left-text {
   flex-wrap: wrap;
 }
 
@@ -364,31 +366,34 @@ footer {
 
 
 /*home page*/
-#left, #right{
-    position: absolute;
-    background-color: transparent;
-    border-color: transparent;
-    bottom: 275px;
+#left,
+#right {
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+  bottom: 275px;
 }
 
-#left_arrow, #right_arrow{
+#left_arrow,
+#right_arrow {
   width: 40px;
   height: 30px;
 }
 
-#right{
-    right: 375px;
+#right {
+  right: 375px;
 }
 
-#left{
+#left {
   left: 375px;
 }
 
-#left_arrow:hover, #right_arrow:hover {
-    background-color: #adadad;
+#left_arrow:hover,
+#right_arrow:hover {
+  background-color: #adadad;
 }
 
-.carosel{
+.carosel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -397,7 +402,7 @@ footer {
   padding: 0;
 }
 
-.carosel img{
+.carosel img {
   display: block;
   object-fit: cover;
   width: 400px;
@@ -451,7 +456,7 @@ footer {
 
 
 /*Pixel*/
-.pixelImages > img{
+.pixelImages>img {
   display: inline-block;
   max-width: 400px;
   width: 100%;
@@ -469,7 +474,7 @@ footer {
 
 
 /*Credibility*/
-#credList li{
+#credList li {
   list-style-position: inside;
   padding-left: 15px;
 }
@@ -488,23 +493,23 @@ footer {
 
 /*Poll interactive*/
 .interactive-element {
-    border: 2px solid #444;
-    padding: 1.5rem;
-    margin-top: 2rem;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border: 2px solid #444;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #voteBtn {
-    padding: 0.6rem 1.2rem;
-    cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
 }
 
 #pollMessage {
-    margin-top: 1rem;
-    font-weight: bold;
+  margin-top: 1rem;
+  font-weight: bold;
 }
 
 
@@ -517,11 +522,14 @@ footer {
 
 /*Media queries*/
 @media (max-width: 1000px) {
-  #left, #left_arrow,
-    #right, #right_arrow, 
-    #arrows {
-        display: none;
-    }
+
+  #left,
+  #left_arrow,
+  #right,
+  #right_arrow,
+  #arrows {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -574,17 +582,63 @@ footer {
       display: none;
   }
 
-    .dropdown.active .dropdownMenu {
-        display: block;
-    }
+  #hamburgerBtn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: translateY(-50%);
 
-    #carousel {
-        flex-direction: column;
-    }
-
-    #left, #left_arrow,
-    #right, #right_arrow, 
-    #arrows {
-        display: none;
-    }
   }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #031A4D;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    border-top: 1px solid #ccc;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    background-color: #3b82f6;
+  }
+
+  .nav-menu>li {
+    width: 100%;
+  }
+
+  .dropdown:hover .dropdownMenu {
+    display: none;
+  }
+
+  .dropdownMenu {
+    position: static;
+    display: none;
+    background-color: transparent;
+  }
+
+  .dropdown:hover .dropdownMenu {
+    display: none;
+  }
+
+  .dropdown.active .dropdownMenu {
+    display: block;
+  }
+
+  #carousel {
+    flex-direction: column;
+  }
+
+  #left,
+  #left_arrow,
+  #right,
+  #right_arrow,
+  #arrows {
+    display: none;
+  }
+}

@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 main {
   background-color: #E8E6EE;
   padding: 10px;
@@ -21,6 +22,7 @@ main {
 h1, h3, h2 {
   text-align: center;
   margin: 10px;
+  padding: 7px;
 }
 
 .content {
@@ -413,7 +415,7 @@ footer {
 
 
 /*Images*/
-#pressImage {
+#pressImage, #impactImage {
   width: 200px;
   height: auto;
   display: block;
@@ -428,6 +430,8 @@ footer {
   margin-top: 0px, 10px, 10px, 0px;
   padding: 5px;
 }
+
+
 
 
 

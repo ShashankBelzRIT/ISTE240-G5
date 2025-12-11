@@ -54,6 +54,8 @@
           reduces some environmental burdens of print, its global energy demands and electronic 
           waste present serious sustainability challenges if left unchecked.
       </p>
+
+      <img id="impactImage" src="assets/images/impact/waste.jpg" alt="newspaper waste">
     </div>
   </main>
 

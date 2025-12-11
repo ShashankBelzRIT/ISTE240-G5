@@ -1,4 +1,5 @@
 <?php
+    /* --- Press to Pixel --- History Page */
     $pageTitle = "History";
     require_once('assets/inc/header.inc.php');
 ?>

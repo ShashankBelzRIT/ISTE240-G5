@@ -16,7 +16,7 @@
           <li><a href="index.php">Home</a></li>
           
           <li class="dropdown">
-            <a href="history.php">History ⮟</a>
+            <a href="history.php">History ↓</a>
             <ul class="dropdownMenu">
                 <li><a href="press.php">Press</a></li>
                 <li><a href="pixel.php">Pixel</a></li>
@@ -24,14 +24,14 @@
           </li>
 
           <li class="dropdown">
-            <a href="why.php">Why ⮟</a>
+            <a href="why.php">Why ↓</a>
             <ul class="dropdownMenu">
                 <li><a href="credibility.php">Credibility</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
-            <a href="research.php">Research ⮟</a>
+            <a href="research.php">Research ↓</a>
             <ul class="dropdownMenu">
                 <li><a href="impact.php">Impact</a></li>
             </ul>

@@ -12,6 +12,8 @@
       Because errors were costly to correct once published, journalists were motivated to uphold accuracy and credibility. 
       Print’s strengths made it powerful, but it was not without limits.
     </p>
+
+    <br>
                           
     <h2>Print</h2>
     <img id="historyImage" src="assets/images/history/printingPress.png" alt="Gutenberg using his printing press.">

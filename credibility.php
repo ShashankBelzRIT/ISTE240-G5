@@ -36,35 +36,35 @@
       </p> 
 
       <p>
-          In terms of the differences between print news and digital news sources for 
-          fake news and bias, here are some pros for both:
-          <ul id = "credList">
-            <l1><h4>Print</h4></l1>
-            <li>More likely to be written by a human</li>
-            <li>More reliable and trustworthy news</li>
-            <li>Generally less bias</li>
-          </ul>
+        In terms of the differences between print news and digital news sources for 
+        fake news and bias, here are some pros for both:
+        <ul id = "credList">
+          <l1><h4>Print</h4></l1>
+          <li>More likely to be written by a human</li>
+          <li>More reliable and trustworthy news</li>
+          <li>Generally less bias</li>
+        </ul>
 
-          <section class="crap">
-            <h3>CRAP Principle</h3>
-            <p>What CRAP principle can help you detect a poor news website?</p>
+        <section class="crap">
+          <h3>CRAP Principle</h3>
+          <p>What CRAP principle can help you detect a poor news website?</p>
+          <br>
+          <button id="crap_trigger">Click me to see!</button>
+          <p id="crap_answer">
             <br>
-            <button id="crap_trigger">Hover over me to see!</button>
-              <p id="crap_answer"><br>
-                Alignment! <br>
-                If a website has poor alignment, then it may indicate a cheaply made
-                and untrustable website.
-              </p>
-          </section>
+            Alignment! <br>
+            If a website has poor alignment, then it may indicate a cheaply made
+            and untrustable website.
+          </p>
+        </section>
 
-
-          <ul id = "credList">
-            <l1><h4>Digital</h4></l1>
-            <li>Easier to complete background research on the topic</li>
-            <li>Sources are easier to locate</li>
-            <li>Larger variety of sources</li>
-            <li>Further information on topics is more accessible</li>
-          </ul>
+        <ul id = "credList">
+          <l1><h4>Digital</h4></l1>
+          <li>Easier to complete background research on the topic</li>
+          <li>Sources are easier to locate</li>
+          <li>Larger variety of sources</li>
+          <li>Further information on topics is more accessible</li>
+        </ul>
 
       </p>
     </div>

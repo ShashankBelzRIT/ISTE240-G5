@@ -84,7 +84,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 
 .nav-menu a {
@@ -493,7 +493,6 @@ footer {
 
 /*Poll interactive*/
 .interactive-element {
-  border: 2px solid #444;
   padding: 1.5rem;
   margin-top: 2rem;
   border-radius: 8px;
@@ -534,100 +533,68 @@ footer {
 
 @media (max-width: 768px) {
 
-    nav {
-        justify-content: center;
-    }
-
-    #hamburgerBtn {
-        display: block;
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        transform: translateY(-50%);
-  
-    }
-
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        background-color: #031A4D;
-        width: 100%;
-        padding: 10px 0;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        border-top: 1px solid #ccc;
-    }
-
-    .nav-menu.active {
-        display: flex;
-        background-color: #031A4D;
-    }
-
-    .nav-menu > li {
-        width: 100%;
-    }
-
-    .dropdown:hover .dropdownMenu {
-        display: none;
-    }
-
-    .dropdownMenu {
-        position: static;
-        display: none;
-        background-color: transparent;
-    }
-
-    .dropdown:hover .dropdownMenu {
-      display: none;
+  nav {
+      justify-content: center;
   }
 
   #hamburgerBtn {
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    transform: translateY(-50%);
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      transform: translateY(-50%);
 
-  }
+    }
 
   .nav-menu {
-    display: none;
-    flex-direction: column;
-    background-color: #031A4D;
-    width: 100%;
-    padding: 10px 0;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    border-top: 1px solid #ccc;
+      display: none;
+      flex-direction: column;
+      background-color: #031A4D;
+      width: 100%;
+      padding: 10px 0;
+      top: 70px;
+      left: 0;
   }
 
   .nav-menu.active {
-    display: flex;
-    background-color: #3b82f6;
+      display: flex;
+      background-color: #031A4D;
   }
 
-  .nav-menu>li {
-    width: 100%;
+  .nav-menu > li {
+      width: 100%;
+      margin: 0;
   }
 
   .dropdown:hover .dropdownMenu {
-    display: none;
+      display: none;
   }
 
   .dropdownMenu {
-    position: static;
     display: none;
-    background-color: transparent;
+    flex-direction: column;
+    background-color: #031A4D;
+    padding: 0;
+    margin: 0;
+    border: none;
+
   }
 
-  .dropdown:hover .dropdownMenu {
-    display: none;
+  /* .dropdown:hover .dropdownMenu {
+      display: none;
+  } */
+
+  .dropdownMenu li a{
+    color: white;
+    padding: 10px;
   }
 
-  .dropdown.active .dropdownMenu {
-    display: block;
+  .dropdown.open .dropdownMenu {
+    display: flex;
+  }
+
+  .shown {
+    height: 50px;
   }
 
   #carousel {

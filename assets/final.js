@@ -202,24 +202,53 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //Hamburger
 
-const hamburger = document.getElementById('hamburgerBtn');
-const navMenu = document.querySelector('.nav-menu');
+// const hamburger = document.getElementById('hamburgerBtn');
+// const navMenu = document.querySelector('.nav-menu');
 
-hamburger.addEventListener('click', () => {
-  navMenu.classList.toggle('active');
-});
+// hamburger.addEventListener('click', () => {
+//   navMenu.classList.toggle('active');
+// });
 
-function toggleNavigation() {
-  const menu = document.getElementsByClassName('navigation')[0];
-  const navbar = document.getElementById('hamburger');
+// function toggleNavigation() {
+//   const menu = document.getElementsByClassName('navigation')[0];
+//   const navbar = document.getElementById('hamburger');
 
-  if (!menu || !navbar) {
-    return;
+//   if (!menu || !navbar) {
+//     return;
+//   }
+
+//   menu.classList.toggle('shown');
+//   navbar.classList.toggle('shown');
+// }
+
+function toggleHamburger() {
+  const navMenu = document.querySelector(".nav-menu");
+  navMenu.classList.toggle("active");
+}
+
+function toggleDropdown(event) {
+  event.preventDefault();
+  const dropdown = event.currentTarget.parentElement;
+  dropdown.classList.toggle("open");
+}
+
+function initNav() {
+  const hamburgerBtn = document.getElementById("hamburgerBtn");
+  const dropdownLinks = document.querySelectorAll(".dropdown > a");
+
+  if (hamburgerBtn) {
+    hamburgerBtn.addEventListener("click", toggleHamburger);
   }
 
-  menu.classList.toggle('shown');
-  navbar.classList.toggle('shown');
+  dropdownLinks.forEach(link => {
+    link.addEventListener("click", toggleDropdown);
+  });
 }
+document.addEventListener("DOMContentLoaded", initNav);
+
+
+
+
 
 //show crap answer on click
 document.addEventListener("DOMContentLoaded", () => {

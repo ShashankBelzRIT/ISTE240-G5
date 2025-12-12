@@ -1,4 +1,5 @@
 <?php
+    /* --- Press to Pixel --- Pixel Page */
     $pageTitle = "Pixel";
     require_once('assets/inc/header.inc.php');
 ?>

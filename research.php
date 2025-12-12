@@ -1,4 +1,5 @@
 <?php
+     /* --- Press to Pixel--- Research Page */
     $pageTitle = "Research";
     require_once('assets/inc/header.inc.php');
 ?>

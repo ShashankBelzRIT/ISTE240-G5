@@ -1,6 +1,7 @@
 <!--From Press to Pixel - Impact HTML-->
 
 <?php
+    /* --- Press to Pixel --- Impact Page */
     $pageTitle = "Impact";
     require_once('assets/inc/header.inc.php');
 ?>

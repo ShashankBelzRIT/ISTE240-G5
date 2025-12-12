@@ -201,37 +201,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 //Hamburger
-
-// const hamburger = document.getElementById('hamburgerBtn');
-// const navMenu = document.querySelector('.nav-menu');
-
-// hamburger.addEventListener('click', () => {
-//   navMenu.classList.toggle('active');
-// });
-
-// function toggleNavigation() {
-//   const menu = document.getElementsByClassName('navigation')[0];
-//   const navbar = document.getElementById('hamburger');
-
-//   if (!menu || !navbar) {
-//     return;
-//   }
-
-//   menu.classList.toggle('shown');
-//   navbar.classList.toggle('shown');
-// }
-
 function toggleHamburger() {
   const navMenu = document.querySelector(".nav-menu");
   navMenu.classList.toggle("active");
 }
 
 function toggleDropdown(event) {
-  event.preventDefault();
   const dropdown = event.currentTarget.parentElement;
-  dropdown.classList.toggle("open");
+
+  //ifdropdown is open, allow navigation
+  if (dropdown.classList.contains("open")) {
+    return;
+  }
+
+  event.preventDefault();
+  dropdown.classList.add("open");
 }
 
+//open the hamburger nav on click for mobile
 function initNav() {
   const hamburgerBtn = document.getElementById("hamburgerBtn");
   const dropdownLinks = document.querySelectorAll(".dropdown > a");

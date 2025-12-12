@@ -1,3 +1,5 @@
+<!--From Press to Pixel - Credibility-->
+
 <?php
     $pageTitle = "Credibility";
     require_once('assets/inc/header.inc.php');
@@ -57,6 +59,8 @@
             and untrustable website.
           </p>
         </section>
+
+          <br>
 
         <ul id = "credList">
           <l1><h4>Digital</h4></l1>

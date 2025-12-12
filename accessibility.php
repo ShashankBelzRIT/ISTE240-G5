@@ -1,3 +1,5 @@
+<!--From Press to Pixel - Accessibility-->
+
 <?php
     $pageTitle = "Accessibility";
     require_once('assets/inc/header.inc.php');

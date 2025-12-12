@@ -55,31 +55,18 @@
                         <li>Proximity: <span id="proximityCount">0</span></li>
                     </ul>
                 </section>
-            
-            <!-- <section class="interactive-element">
-                <h3>Interactive Element</h3>
-                <p>In hac habitasse platea dictumst. Proin eget odio consequat.</p>
-                <ul>
-                    <li>In hac habitasse</li>
-                    <li>Platea dictumst</li>
-                    <li>Proin eget odio</li>
-                </ul>
-            </section> -->
 
             <br>
 
             <p>
                 Digital news networks have a stronger grasp on 
                 these principles than print media, but there are still arguments for each medium. To learn 
-                more about these arguments, visit the <a href="press.html">Press</a> and <a href="pixel.html">Pixel</a> 
+                more about these arguments, visit the <a href="press.php">Press</a> and <a href="pixel.php">Pixel</a> 
                 pages on our website. News media have had a shift in their display of information over the years, 
                 but all coverage still followed the techniques described in the principles. Overall, the CRAP 
                 principles allow users to interact with media easily, and without them, news media would be more 
                 confusing and less beneficial for all parties. 
             </p>
-        <!-- <section class="whyImages">
-            <img id="whyImage" src="assets/images/why/newspaper.jpg" alt="image1">
-        </section> -->
         </div>
     </main>
 

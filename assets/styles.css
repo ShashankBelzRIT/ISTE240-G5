@@ -84,7 +84,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .nav-menu a {
@@ -157,6 +157,7 @@ nav a {
 
 /*Accessibility Interactives*/
 .accessibility-interactive {
+  border: 2px solid #333;
   max-width: 700px;
   margin: auto;
   padding: 20px;
@@ -432,7 +433,7 @@ footer {
   width: 300px;
   height: auto;
   display: block;
-  margin-top: 15px;
+  margin: 15px auto; 
   padding: 10px;
 }
 
@@ -474,9 +475,15 @@ footer {
 
 
 /*Credibility*/
+
+#credList {
+  text-align: left;
+  margin-left: 20px;
+}
+
 #credList li {
-  list-style-position: inside;
-  padding-left: 15px;
+  text-align: left;
+  padding-left: 5px; 
 }
 
 
@@ -566,6 +573,10 @@ footer {
       margin: 0;
   }
 
+  .nav-menu.active a {
+      color: white;
+  } 
+
   .dropdown:hover .dropdownMenu {
       display: none;
   }
@@ -579,10 +590,6 @@ footer {
     border: none;
 
   }
-
-  /* .dropdown:hover .dropdownMenu {
-      display: none;
-  } */
 
   .dropdownMenu li a{
     color: white;

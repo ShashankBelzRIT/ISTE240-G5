@@ -1,4 +1,4 @@
-<!--From Press to Pixel - Impact HTML-->
+<!--From Press to Pixel - Impact-->
 
 <?php
     /* --- Press to Pixel --- Impact Page */
